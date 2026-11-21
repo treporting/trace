@@ -1,0 +1,192 @@
+# The checks of this repo on every pull request, made with the tools of treporting/tools. Two repos
+# lie above: specs-and-deploy-process holds the schemas (schemacheck, approvalcheck), and
+# specs-and-deploy-product the system requirements and the architecture the software requirements
+# name as uplinks (uplinkcheck, linkcheck). All at a fixed revision; a pull request raises them.
+name: tools
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+#	a new push to the branch of a pull request cancels the run it replaces
+concurrency:
+  group: tools-${{ github.head_ref }}
+  cancel-in-progress: true
+
+env:
+  TOOLS_REF: 6349d3c672cf818927b9f5f2c37d2e4370d821d1
+  PRODUCT_REF: 8f7784b2c0e5a972c2403c275087936b2c2ee214
+  ABOVE_REF: df8e13f234c84980f229645303f823b382c35383
+
+jobs:
+  #	the whole history: a review names the revisions it reviewed
+  reviewcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-process
+          ref: ${{ env.ABOVE_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: reviewcheck
+        working-directory: .tools
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: go run ./review/cmd/reviewcheck -root .. -base "$BASE"
+  schemacheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-process
+          ref: ${{ env.ABOVE_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: schemacheck
+        working-directory: .tools
+        run: go run ./schema/cmd/schemacheck -root .. -above ../.above
+  #	the ruleset of main on GitHub against .github/rulesets/main.json; read only, the token: with it the
+  #	limit of requests to the API is higher
+  rulesetcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: rulesetcheck
+        working-directory: .tools
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: go run ./ruleset/cmd/rulesetcheck -root .. -repo treporting/trace
+  #	the whole history: the requirements are read as they stand in the base commit
+  annotationcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-process
+          ref: ${{ env.ABOVE_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: annotationcheck
+        working-directory: .tools
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: go run ./annotation/cmd/annotationcheck -root .. -kinds ../kinds.yaml -base "$BASE"
+  #	the objects in the files the pull request changes; the whole history, as the check reads
+  #	the revisions of the reviews and of each approval
+  approvalcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-process
+          ref: ${{ env.ABOVE_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: approvalcheck
+        working-directory: .tools
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: go run ./review/cmd/approvalcheck -root .. -above ../.above -base "$BASE"
+  uplinkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-product
+          ref: ${{ env.PRODUCT_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: uplinkcheck
+        working-directory: .tools
+        run: go run ./uplink/cmd/uplinkcheck -root .. -above ../.above
+  #	reports and does not fail: a suspect link blocks the baseline, not the pull request (PROC_20)
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/tools
+          ref: ${{ env.TOOLS_REF }}
+          path: .tools
+      - uses: actions/checkout@v7
+        with:
+          repository: treporting/specs-and-deploy-product
+          ref: ${{ env.PRODUCT_REF }}
+          path: .above
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: .tools/go.mod
+          cache-dependency-path: .tools/go.sum
+      - name: linkcheck
+        working-directory: .tools
+        run: go run ./link/cmd/linkcheck -root .. -above ../.above -kinds ../kinds.yaml
+  #	the build steps of every repo, from tools
+  build:
+    uses: treporting/tools/.github/workflows/build.yml@main
+    with:
+      go-version-file: .build-steps/go.mod
