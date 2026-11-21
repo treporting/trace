@@ -17,7 +17,7 @@ requirements:
   - SYS_1@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_2
@@ -29,7 +29,7 @@ requirements:
   - ARC_32@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_3
@@ -41,7 +41,7 @@ requirements:
   - ARC_34@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_4
@@ -53,7 +53,7 @@ requirements:
   - ARC_35@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_5
@@ -65,7 +65,7 @@ requirements:
   - ARC_35@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_6
@@ -77,7 +77,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_7
@@ -90,7 +90,7 @@ requirements:
   - SYS_73@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_8
@@ -102,7 +102,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_9
@@ -113,7 +113,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_10
@@ -124,7 +124,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_11
@@ -135,7 +135,7 @@ requirements:
   - SYS_3@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_12
@@ -147,7 +147,7 @@ requirements:
   - SYS_4@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_13
@@ -159,7 +159,7 @@ requirements:
   - SYS_5@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_14
@@ -171,7 +171,7 @@ requirements:
   - SYS_6@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_15
@@ -183,7 +183,7 @@ requirements:
   - SYS_7@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_16
@@ -195,7 +195,7 @@ requirements:
   - SYS_8@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_17
@@ -206,7 +206,7 @@ requirements:
   - SYS_77@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_18
@@ -218,7 +218,7 @@ requirements:
   - SYS_30@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_19
@@ -230,7 +230,7 @@ requirements:
   - ARC_29@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_20
@@ -241,7 +241,7 @@ requirements:
   - ARC_29@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_21
@@ -253,7 +253,7 @@ requirements:
   - ARC_31@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_22
@@ -266,7 +266,7 @@ requirements:
   - ARC_31@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_23
@@ -277,7 +277,7 @@ requirements:
   - ARC_31@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_24
@@ -288,7 +288,7 @@ requirements:
   - SYS_81@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_25
@@ -301,7 +301,7 @@ requirements:
   - SYS_9@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_26
@@ -313,7 +313,7 @@ requirements:
   - SYS_9@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_27
@@ -325,7 +325,7 @@ requirements:
   - SYS_83@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_28
@@ -336,7 +336,7 @@ requirements:
   - SYS_10@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_29
@@ -348,7 +348,7 @@ requirements:
   - SYS_11@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_30
@@ -359,7 +359,7 @@ requirements:
   - SYS_11@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_31
@@ -371,7 +371,7 @@ requirements:
   - SYS_11@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_32
@@ -383,7 +383,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_33
@@ -395,7 +395,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_34
@@ -406,7 +406,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_35
@@ -417,7 +417,7 @@ requirements:
   - SYS_13@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_36
@@ -429,7 +429,7 @@ requirements:
   - SYS_13@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_37
@@ -440,7 +440,7 @@ requirements:
   - SYS_13@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_38
@@ -452,7 +452,7 @@ requirements:
   - ARC_30@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_39
@@ -464,7 +464,7 @@ requirements:
   - SYS_14@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_40
@@ -476,7 +476,7 @@ requirements:
   - SYS_78@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_41
@@ -488,7 +488,7 @@ requirements:
   - SYS_94@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_42
@@ -500,7 +500,7 @@ requirements:
   - SYS_15@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_43
@@ -512,7 +512,7 @@ requirements:
   - SYS_15@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_44
@@ -524,7 +524,7 @@ requirements:
   - SYS_16@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_45
@@ -536,7 +536,7 @@ requirements:
   - SYS_17@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_46
@@ -547,7 +547,7 @@ requirements:
   - SYS_82@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_47
@@ -558,7 +558,7 @@ requirements:
   - ARC_33@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_48
@@ -569,7 +569,7 @@ requirements:
   - SYS_18@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_49
@@ -580,7 +580,7 @@ requirements:
   - SYS_18@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_50
@@ -591,7 +591,7 @@ requirements:
   - SYS_28@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_51
@@ -602,7 +602,7 @@ requirements:
   - SYS_19@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_52
@@ -613,7 +613,7 @@ requirements:
   - SYS_19@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_53
@@ -624,7 +624,7 @@ requirements:
   - SYS_19@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_54
@@ -635,7 +635,7 @@ requirements:
   - SYS_26@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_55
@@ -646,7 +646,7 @@ requirements:
   - SYS_96@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_56
@@ -658,7 +658,7 @@ requirements:
   - ARC_28@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_57
@@ -669,7 +669,7 @@ requirements:
   - ARC_23@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_58
@@ -680,7 +680,7 @@ requirements:
   - ARC_24@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_59
@@ -691,7 +691,7 @@ requirements:
   - ARC_25@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_60
@@ -702,7 +702,7 @@ requirements:
   - ARC_26@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_61
@@ -713,7 +713,7 @@ requirements:
   - ARC_27@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_62
@@ -724,7 +724,7 @@ requirements:
   - ARC_37@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_63
@@ -736,7 +736,7 @@ requirements:
   - ARC_37@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_64
@@ -748,7 +748,7 @@ requirements:
   - ARC_37@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_65
@@ -760,7 +760,7 @@ requirements:
   - ARC_37@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_66
@@ -771,7 +771,7 @@ requirements:
   - SYS_37@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_67
@@ -783,7 +783,7 @@ requirements:
   - SYS_38@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_68
@@ -794,7 +794,7 @@ requirements:
   - SYS_35@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_69
@@ -805,7 +805,7 @@ requirements:
   - ARC_36@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_70
@@ -816,7 +816,7 @@ requirements:
   - SYS_32@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_71
@@ -827,7 +827,7 @@ requirements:
   - SYS_85@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_72
@@ -838,7 +838,7 @@ requirements:
   - SYS_95@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_73
@@ -849,7 +849,7 @@ requirements:
   - SYS_97@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_74
@@ -860,7 +860,7 @@ requirements:
   - SYS_39@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_75
@@ -871,7 +871,7 @@ requirements:
   - SYS_39@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_76
@@ -882,7 +882,7 @@ requirements:
   - SYS_88@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_77
@@ -893,7 +893,7 @@ requirements:
   - SYS_90@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_78
@@ -905,7 +905,7 @@ requirements:
   - SYS_40@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_79
@@ -916,7 +916,7 @@ requirements:
   - SYS_43@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_80
@@ -927,7 +927,7 @@ requirements:
   - SYS_44@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_81
@@ -939,7 +939,7 @@ requirements:
   - SYS_45@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_82
@@ -951,7 +951,7 @@ requirements:
   - SYS_46@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_83
@@ -962,7 +962,7 @@ requirements:
   - SYS_47@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_84
@@ -973,7 +973,7 @@ requirements:
   - SYS_48@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_85
@@ -985,7 +985,7 @@ requirements:
   - SYS_49@1.2.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_86
@@ -997,7 +997,7 @@ requirements:
   - SYS_50@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_87
@@ -1008,7 +1008,7 @@ requirements:
   - SYS_79@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_88
@@ -1020,7 +1020,7 @@ requirements:
   - SYS_80@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_89
@@ -1031,7 +1031,7 @@ requirements:
   - SYS_84@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_90
@@ -1042,7 +1042,7 @@ requirements:
   - SYS_51@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_91
@@ -1054,7 +1054,7 @@ requirements:
   - SYS_52@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_92
@@ -1065,7 +1065,7 @@ requirements:
   - SYS_54@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_93
@@ -1077,7 +1077,7 @@ requirements:
   - SYS_55@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_94
@@ -1089,7 +1089,7 @@ requirements:
   - SYS_56@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_95
@@ -1101,7 +1101,7 @@ requirements:
   - SYS_58@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_96
@@ -1112,7 +1112,7 @@ requirements:
   - SYS_59@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_97
@@ -1123,7 +1123,7 @@ requirements:
   - SYS_91@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_98
@@ -1134,7 +1134,7 @@ requirements:
   - SYS_93@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_99
@@ -1146,7 +1146,7 @@ requirements:
   - SYS_68@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_100
@@ -1157,7 +1157,7 @@ requirements:
   - SYS_68@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_101
@@ -1169,7 +1169,7 @@ requirements:
   - SYS_70@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_102
@@ -1180,7 +1180,7 @@ requirements:
   - SYS_71@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_103
@@ -1192,7 +1192,7 @@ requirements:
   - SYS_72@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_104
@@ -1203,7 +1203,7 @@ requirements:
   - SYS_73@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_105
@@ -1216,7 +1216,7 @@ requirements:
   - SYS_74@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_106
@@ -1227,7 +1227,7 @@ requirements:
   - SYS_75@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_107
@@ -1239,6 +1239,6 @@ requirements:
   - SYS_76@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
