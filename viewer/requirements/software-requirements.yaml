@@ -1,0 +1,858 @@
+# Software requirements of viewer-trace (ARC_1), r5: from the system requirements and the
+# requirements of the architecture allocated to the viewer and to its interface ARC_11. What
+# explains them is in software-requirements.md.
+# Format: formats.md of specs-and-deploy-process
+schema: schemas/software-requirements.schema.json
+type: requirements
+level: r5
+documents: [viewer/requirements/software-requirements.md]
+requirements:
+- object_key: SR_1
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the trace the reporter answers as a table with one column per level of the head, each
+    headed with the name the reporter gives it, never with a name of its own
+  source_ids:
+  - SYS_1@1.1.1
+  - SYS_94@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_2
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose the level the trace starts at - user need, requirement, test or hazard
+  source_ids:
+  - SYS_1@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_3
+  object_version: '1.1.1'
+  component: filters
+  object_text: send the level chosen by its key as the head names it
+  source_ids:
+  - ARC_32@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_4
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose whether each row shows the levels above it, and ask the reporter for
+    them only then
+  source_ids:
+  - ARC_34@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_5
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose whether each cell shows the keys of its objects, each with its state,
+    or their count, and ask the reporter for the one chosen
+  source_ids:
+  - ARC_35@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_6
+  object_version: '1.1.1'
+  component: tables
+  object_text: show a cell that holds a missing link, test case, implementation or test result in a colour
+    of its own, never in the colour of passed or approved
+  source_ids:
+  - SYS_2@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_7
+  object_version: '1.1.1'
+  component: tables
+  object_text: show per release the requirements that no passed test result verifies
+  source_ids:
+  - SYS_3@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_8
+  object_version: '1.1.1'
+  component: tables
+  object_text: show one row per feature with the counted states of each level below it, per release
+  source_ids:
+  - SYS_4@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_9
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the data grouped by feature, one group per feature
+  source_ids:
+  - SYS_84@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_10
+  object_version: '1.1.1'
+  component: charts
+  object_text: show the counted states of the requirements of a level as a chart, one bar per release
+    or library
+  source_ids:
+  - SYS_5@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_11
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose between test cases, test procedures and test results, and show the
+    states of the one chosen
+  source_ids:
+  - SYS_8@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_12
+  object_version: '1.1.1'
+  component: charts
+  object_text: show the counted states of the source code and of the object code apart, per release and
+    library
+  source_ids:
+  - SYS_77@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_13
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the trace by test case, one row per test case with its result and the requirements
+    it verifies
+  source_ids:
+  - SYS_6@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_14
+  object_version: '1.1.1'
+  component: tables
+  object_text: show per person responsible the requirements assigned to them that have no implementation
+    or no test case
+  source_ids:
+  - SYS_7@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_15
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose the organization, the project, the subsystem, the release and the library
+    from the lists the reporter answers
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_16
+  object_version: '1.1.1'
+  component: filters
+  object_text: send with every request the organization, the project, the subsystem and the baseline chosen,
+    never every subsystem
+  source_ids:
+  - ARC_29@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_17
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose a span of baselines for a view over time
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_18
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user narrow by platform, launch and stream from the lists the reporter answers
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_19
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user narrow the requirements, the tests and the code by function, feature, priority
+    and safety class from the lists the reporter answers
+  source_ids:
+  - SYS_83@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_20
+  object_version: '1.1.1'
+  component: filters
+  object_text: send each narrowing chosen with every request whose answer the reporter narrows by it,
+    and every one as `*`
+  source_ids:
+  - ARC_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_21
+  object_version: '1.1.1'
+  component: filters
+  object_text: show with every table how many objects the narrowing left out, as the reporter answers
+    it
+  source_ids:
+  - SYS_9@2.1.1
+  - SYS_83@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_22
+  object_version: '1.1.1'
+  component: filters
+  object_text: keep a choice when its list is answered again, where the new list still holds it, and fall
+    back to every one otherwise
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_23
+  object_version: '1.1.1'
+  component: filters
+  object_text: show at all times every filter in effect with its value
+  source_ids:
+  - SYS_10@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_24
+  object_version: '1.1.1'
+  component: filters
+  object_text: mark among the filters shown those the view on screen applies, and only those
+  source_ids:
+  - SYS_10@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_25
+  object_version: '1.1.1'
+  component: charts
+  object_text: narrow a chart exactly as the table beside it
+  source_ids:
+  - SYS_81@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_26
+  object_version: '1.1.1'
+  component: charts
+  object_text: count in a chart exactly the objects of the table beside it
+  source_ids:
+  - SYS_30@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_27
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user narrow the code by component and by unit, and send the ones chosen
+  source_ids:
+  - ARC_33@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_28
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the hazards and threats and their measures as columns before the system side of the
+    trace, where the user asks for them
+  source_ids:
+  - SYS_12@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_29
+  object_version: '1.1.1'
+  component: tables
+  object_text: mark a hazard or threat that has no measure or no passed result, as the reporter marks
+    it
+  source_ids:
+  - SYS_12@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_30
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose a standard, and show its clauses only
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_31
+  object_version: '1.1.1'
+  component: tables
+  object_text: show one row per clause, with its key, the requirements that address it with their levels,
+    and whether it is open, addressed or verified
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_32
+  object_version: '1.1.1'
+  component: charts
+  object_text: show per release the clauses that are open, addressed and verified, stacked
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_33
+  object_version: '1.1.1'
+  component: filters
+  object_text: let the user choose the process reference model, send it, and show the one in use at all
+    times
+  source_ids:
+  - ARC_30@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_34
+  object_version: '1.1.1'
+  component: filters
+  object_text: offer as process reference models ASPICE, DO-178C, EN 50716, IEC 62304, IEC 61508 and ISO/IEC/IEEE
+    12207
+  source_ids:
+  - SYS_78@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_35
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the work products of a baseline with their revision, their level, their kind and the
+    tool they are kept in
+  source_ids:
+  - SYS_15@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_36
+  object_version: '1.1.1'
+  component: charts
+  object_text: show the work products counted per level and per tool, each once
+  source_ids:
+  - SYS_15@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_37
+  object_version: '1.1.1'
+  component: baselines
+  object_text: let the user choose two baselines, and show the objects and the documents added, removed
+    or changed between them
+  source_ids:
+  - SYS_16@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_38
+  object_version: '1.1.1'
+  component: tables
+  object_text: show the releases and libraries of a project, each with its start, its end and the release
+    a library was delivered into
+  source_ids:
+  - SYS_17@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_39
+  object_version: '1.1.1'
+  component: charts
+  object_text: show the libraries of each subsystem as spans on a time axis, against the releases as lines
+  source_ids:
+  - SYS_17@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_40
+  object_version: '1.1.1'
+  component: tables
+  object_text: show how a project is split into its subsystems, and their components with their units
+  source_ids:
+  - SYS_82@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_41
+  object_version: '1.1.1'
+  component: provenance
+  object_text: show on every view the version of the viewer and the revision of the reporter, when each
+    was built, and which data set it answers from
+  source_ids:
+  - SYS_18@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_42
+  object_version: '1.1.1'
+  component: provenance
+  object_text: show a value that is unknown as unknown, never as zero, empty or passed - its own build
+    where the build did not stamp one too
+  source_ids:
+  - SYS_28@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_43
+  object_version: '1.1.1'
+  component: provenance
+  object_text: show on every view whether its data set is complete, incomplete or unverified
+  source_ids:
+  - SYS_26@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_44
+  object_version: '1.1.1'
+  component: provenance
+  object_text: show on every view how many objects of each kind it answers from
+  source_ids:
+  - SYS_96@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_45
+  object_version: '1.1.1'
+  component: provenance
+  object_text: say on every view whether it shows the values as read or the values derived
+  source_ids:
+  - SYS_68@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_46
+  object_version: '1.1.1'
+  component: export
+  object_text: hand out the table of every view as a CSV file
+  source_ids:
+  - SYS_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_47
+  object_version: '1.1.1'
+  component: export
+  object_text: hand out every chart as a picture
+  source_ids:
+  - SYS_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_48
+  object_version: '1.1.1'
+  component: export
+  object_text: make of the views chosen a document with the tables and charts chosen, readable without
+    treporting
+  source_ids:
+  - SYS_85@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_49
+  object_version: '1.1.1'
+  component: export
+  object_text: name in every report the data set, the revision and the build it was made from
+  source_ids:
+  - SYS_95@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_50
+  object_version: '1.1.1'
+  component: export
+  object_text: name in every report how many objects of each kind it was made from
+  source_ids:
+  - SYS_97@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_51
+  object_version: '1.1.1'
+  component: export
+  object_text: name in every report the chain it used and the steps it left out
+  source_ids:
+  - SYS_80@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_52
+  object_version: '1.1.1'
+  component: navigation
+  object_text: say on the first screen what treporting does and where to start
+  source_ids:
+  - SYS_33@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_53
+  object_version: '1.1.1'
+  component: navigation
+  object_text: lead back to the first screen from every view
+  source_ids:
+  - SYS_33@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_54
+  object_version: '1.1.1'
+  component: status
+  object_text: show, while a view is loading, that it is
+  source_ids:
+  - SYS_34@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_55
+  object_version: '1.1.1'
+  component: status
+  object_text: while the reporter says its data are not there yet, ask again by itself, and fill the view
+    on screen when they arrive
+  source_ids:
+  - SYS_34@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_56
+  object_version: '1.1.1'
+  component: status
+  object_text: show on every view, while the reporter or a part of treporting is not available, that it
+    is not and the reason given
+  source_ids:
+  - SYS_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_57
+  object_version: '1.1.1'
+  component: status
+  object_text: show the reason the reporter gives for a request it refuses, never an empty view
+  source_ids:
+  - ARC_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_58
+  object_version: '1.1.1'
+  component: navigation
+  object_text: give every view a link that opens it for another user with the same narrowing
+  source_ids:
+  - SYS_86@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_59
+  object_version: '1.1.1'
+  component: charts
+  object_text: give every chart a title that names the objects it counts
+  source_ids:
+  - SYS_87@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_60
+  object_version: '1.1.1'
+  component: charts
+  object_text: open from each part of a chart the table of the objects it counts, with the filters set
+    to them
+  source_ids:
+  - SYS_98@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_61
+  object_version: '1.1.1'
+  component: performance
+  object_text: show a view of a data set of size large within the share of the time given that falls to
+    the viewer
+  source_ids:
+  - SYS_52@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_62
+  object_version: '1.1.1'
+  component: operation
+  object_text: start from a release with no setting other than those its operator manual names
+  source_ids:
+  - SYS_35@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_63
+  object_version: '1.1.1'
+  component: operation
+  object_text: record its errors and warnings with their time and cause
+  source_ids:
+  - SYS_38@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_64
+  object_version: '1.1.1'
+  component: access
+  object_text: show a user only the views their role grants, and none before they are authenticated
+  source_ids:
+  - SYS_39@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_65
+  object_version: '1.1.1'
+  component: access
+  object_text: show the record of what users did only to the roles allowed to see it
+  source_ids:
+  - SYS_90@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_66
+  object_version: '1.1.1'
+  component: licence
+  object_text: show for a request refused for a missing licence the reason the reporter gives
+  source_ids:
+  - SYS_58@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_67
+  object_version: '1.1.1'
+  component: licence
+  object_text: show which features the installation is licensed for
+  source_ids:
+  - SYS_59@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_68
+  object_version: '1.1.1'
+  component: pages
+  object_text: name on the demo where a vulnerability is reported and how it is handled
+  source_ids:
+  - SYS_67@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_69
+  object_version: '1.1.1'
+  component: provenance
+  object_text: show the version of treporting in use
+  source_ids:
+  - SYS_91@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_70
+  object_version: '1.1.1'
+  component: delivery
+  object_text: carry in its container the licence texts and the notices of every component it contains
+  source_ids:
+  - SYS_93@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_71
+  object_version: '1.1.1'
+  component: tables
+  object_text: show every finding of plausibility with its rule and its objects, in a view of its own
+  source_ids:
+  - SYS_71@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_72
+  object_version: '1.1.1'
+  component: tables
+  object_text: show every finding of the customer in a baseline with its evaluation - evaluated or open,
+    by whom, and where it is written
+  source_ids:
+  - SYS_72@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_73
+  object_version: '1.1.1'
+  component: tables
+  object_text: show with every requirement its verification method
+  source_ids:
+  - SYS_73@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_74
+  object_version: '1.1.1'
+  component: tables
+  object_text: show per work product its status, who approved it and when, and its reviews in their order
+    with criteria, result per criterion, reviewer, time, revision reviewed and change since the review
+    before
+  source_ids:
+  - SYS_74@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
