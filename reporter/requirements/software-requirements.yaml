@@ -1,0 +1,1244 @@
+# Software requirements of reporter-trace (ARC_2), r5: from the system requirements and the
+# requirements of the architecture allocated to the reporter and to its interfaces ARC_11 and
+# ARC_12. What explains them is in software-requirements.md.
+# Format: formats.md of specs-and-deploy-process
+schema: schemas/software-requirements.schema.json
+type: requirements
+level: r5
+documents: [reporter/requirements/software-requirements.md]
+requirements:
+- object_key: SR_1
+  object_version: '1.1.1'
+  component: trace
+  object_text: answer the trace from the level asked for - a hazard, a measure, or a requirement or a
+    test case of any level - as one row per object of that level, with the objects linked below it on
+    each level of the head, down to the test results
+  source_ids:
+  - SYS_1@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_2
+  object_version: '1.1.1'
+  component: trace
+  object_text: take the level the trace starts at, or the level counted, by its key as the head of the
+    project names it
+  source_ids:
+  - ARC_32@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_3
+  object_version: '1.1.1'
+  component: trace
+  object_text: name in each row the objects above its object on each level, up to the roots, each with
+    its state, only where the request asks for them
+  source_ids:
+  - ARC_34@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_4
+  object_version: '1.1.1'
+  component: trace
+  object_text: name in each cell the keys of its objects, each with its state, where the request asks
+    for the keys
+  source_ids:
+  - ARC_35@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_5
+  object_version: '1.1.1'
+  component: trace
+  object_text: give in each cell the count of its objects per state, where the request does not ask for
+    the keys
+  source_ids:
+  - ARC_35@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_6
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement that has no child on the level below it in the head as a missing link;
+    mark none where the head has no level below it
+  source_ids:
+  - SYS_2@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_7
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement that no test case verifies as a missing test case where its verification
+    method is test or names no method; mark none where the method names no test
+  source_ids:
+  - SYS_2@1.1.1
+  - SYS_73@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_8
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement of the design level that no source code implements as a missing implementation,
+    never as a missing link
+  source_ids:
+  - SYS_2@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_9
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a test case that has no test result as a missing test result
+  source_ids:
+  - SYS_2@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_10
+  object_version: '1.1.1'
+  component: gaps
+  object_text: count a place marked as missing as not covered, never as covered
+  source_ids:
+  - SYS_2@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_11
+  object_version: '1.1.1'
+  component: trace
+  object_text: answer per release the requirements that no passed test result verifies
+  source_ids:
+  - SYS_3@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_12
+  object_version: '1.1.1'
+  component: features
+  object_text: answer one row per feature, with the states of its objects counted on each level below
+    it, per release
+  source_ids:
+  - SYS_4@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_13
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the requirements of each level per release and per library, each object
+    once
+  source_ids:
+  - SYS_5@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_14
+  object_version: '1.1.1'
+  component: trace
+  object_text: answer the trace by test case - one row per test case of the level asked for, with its
+    test result and the requirements it verifies on each level
+  source_ids:
+  - SYS_6@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_15
+  object_version: '1.1.1'
+  component: trace
+  object_text: answer per person responsible the requirements assigned to them that have no implementation
+    or no test case
+  source_ids:
+  - SYS_7@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_16
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the test cases, the test procedures and the test results of each level
+    apart, per release and per library
+  source_ids:
+  - SYS_8@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_17
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the source code and of the object code apart, per release and per library
+  source_ids:
+  - SYS_77@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_18
+  object_version: '1.1.1'
+  component: states
+  object_text: count in the states of each release exactly the objects the trace of that release answers
+    under the same narrowing
+  source_ids:
+  - SYS_30@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_19
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer a request from the organization, the project, the subsystem and the baseline it
+    names, and from no other
+  source_ids:
+  - ARC_29@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_20
+  object_version: '1.1.1'
+  component: filters
+  object_text: refuse a request that names every subsystem, with the reason
+  source_ids:
+  - ARC_29@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_21
+  object_version: '1.1.1'
+  component: filters
+  object_text: narrow by function, feature and safety class to the objects that carry the entry asked
+    for, never one it is a prefix of; find an object carrying several entries under each of them
+  source_ids:
+  - ARC_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_22
+  object_version: '1.1.1'
+  component: filters
+  object_text: narrow the requirements to the platform and the launch asked for, and the test cases and
+    test results to the platform and the stream asked for, on the level the trace starts at and on every
+    level below it
+  source_ids:
+  - ARC_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_23
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer the same for every one of a narrowing as for no narrowing
+  source_ids:
+  - ARC_31@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_24
+  object_version: '1.1.1'
+  component: filters
+  object_text: narrow the counted states of a request as it narrows its table
+  source_ids:
+  - SYS_81@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_25
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer for a scope the organizations, projects, subsystems, releases and libraries to choose
+    from, and the functions, features, priorities, safety classes, platforms, launches and streams its
+    objects carry, each once
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_26
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer a view over time for a span of baselines, from the first baseline asked for to the
+    last
+  source_ids:
+  - SYS_9@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_27
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer with every table how many objects of its scope the narrowing left out
+  source_ids:
+  - SYS_9@2.1.1
+  - SYS_83@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_28
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer back the scope it answers from and every narrowing it applied
+  source_ids:
+  - SYS_10@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_29
+  object_version: '1.1.1'
+  component: filters
+  object_text: carry the safety class down the trace to every object below; where an object has several
+    parents, the highest among theirs
+  source_ids:
+  - SYS_11@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_30
+  object_version: '1.1.1'
+  component: filters
+  object_text: carry function, feature and priority down the trace to every object below
+  source_ids:
+  - SYS_11@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_31
+  object_version: '1.1.1'
+  component: filters
+  object_text: carry platform and launch down the trace to every object below; where an object has several
+    parents, the union of theirs
+  source_ids:
+  - SYS_11@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_32
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a hazard or threat that has no measure, and a measure that controls no requirement,
+    as a missing link
+  source_ids:
+  - SYS_12@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_33
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a hazard or threat none of whose requirements below its measures has a passed test
+    result
+  source_ids:
+  - SYS_12@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_34
+  object_version: '1.1.1'
+  component: trace
+  object_text: name with each requirement a measure controls that measure and its hazard or threat
+  source_ids:
+  - SYS_12@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_35
+  object_version: '1.1.1'
+  component: compliance
+  object_text: answer per clause of a standard the requirements that address it, with their levels
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_36
+  object_version: '1.1.1'
+  component: compliance
+  object_text: give a clause the state open where none of the requirements addressing it is in the release,
+    verified where each one there has a passed test result, and addressed otherwise
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_37
+  object_version: '1.1.1'
+  component: compliance
+  object_text: count per release the clauses that are open, addressed and verified
+  source_ids:
+  - SYS_13@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_38
+  object_version: '1.1.1'
+  component: process
+  object_text: name the levels in its answer as the process reference model asked for names them, from
+    one data set for every model
+  source_ids:
+  - ARC_30@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_39
+  object_version: '1.1.1'
+  component: process
+  object_text: leave out a level the process reference model asked for does not have, and still trace
+    through it to the levels below
+  source_ids:
+  - SYS_14@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_40
+  object_version: '1.1.1'
+  component: process
+  object_text: offer as process reference models ASPICE, DO-178C, EN 50716, IEC 62304, IEC 61508 and ISO/IEC/IEEE
+    12207, and refuse any other with the reason
+  source_ids:
+  - SYS_78@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_41
+  object_version: '1.1.1'
+  component: process
+  object_text: take the levels of a customer, their names and the chain of their steps from a configuration,
+    and answer with them instead of those of a reference model
+  source_ids:
+  - SYS_94@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_42
+  object_version: '1.1.1'
+  component: baselines
+  object_text: list the work products of a baseline, each once, with its revision, its level, its kind
+    and the tool it is kept in
+  source_ids:
+  - SYS_15@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_43
+  object_version: '1.1.1'
+  component: baselines
+  object_text: count the work products of a baseline under its own project, never under a baseline of
+    the same name of another project
+  source_ids:
+  - SYS_15@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_44
+  object_version: '1.1.1'
+  component: baselines
+  object_text: answer for two baselines the objects and the documents added, removed or changed between
+    them
+  source_ids:
+  - SYS_16@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_45
+  object_version: '1.1.1'
+  component: baselines
+  object_text: list the releases of a project and the libraries of its subsystems, each with its start,
+    its end and the release it was delivered into, in the order they were delivered
+  source_ids:
+  - SYS_17@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_46
+  object_version: '1.1.1'
+  component: structure
+  object_text: answer how a project is split into its subsystems, and their components with their units
+  source_ids:
+  - SYS_82@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_47
+  object_version: '1.1.1'
+  component: structure
+  object_text: narrow a request on the code to the component and the unit asked for
+  source_ids:
+  - ARC_33@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_48
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer its revision and the time it was built
+  source_ids:
+  - SYS_18@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_49
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer which data set it answers from
+  source_ids:
+  - SYS_18@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_50
+  object_version: '1.1.1'
+  component: provenance
+  object_text: give a value it does not know as unknown, never as zero, empty or passed
+  source_ids:
+  - SYS_28@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_51
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer every request the same, to the byte, for the same data set, revision and build
+  source_ids:
+  - SYS_19@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_52
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer every list in an order of its own, never in the order of the storage
+  source_ids:
+  - SYS_19@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_53
+  object_version: '1.1.1'
+  component: provenance
+  object_text: leave the data set unchanged by a request
+  source_ids:
+  - SYS_19@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_54
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer with every answer whether its data set is complete, incomplete or unverified
+  source_ids:
+  - SYS_26@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_55
+  object_version: '1.1.1'
+  component: provenance
+  object_text: answer with every answer how many objects of each kind it answers from
+  source_ids:
+  - SYS_96@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_56
+  object_version: '1.1.1'
+  component: source
+  object_text: answer from one mode only, named at its start, and refuse to start when named more than
+    one
+  source_ids:
+  - ARC_28@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_57
+  object_version: '1.1.1'
+  component: source
+  object_text: answer from a data set in a database server of its own, read through `StorageSource`
+  source_ids:
+  - ARC_23@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_58
+  object_version: '1.1.1'
+  component: source
+  object_text: answer from a data set in a database run together with it
+  source_ids:
+  - ARC_24@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_59
+  object_version: '1.1.1'
+  component: source
+  object_text: answer from a data file it reads
+  source_ids:
+  - ARC_25@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_60
+  object_version: '1.1.1'
+  component: source
+  object_text: answer from a data set it generates in memory, the same data set for the same size
+  source_ids:
+  - ARC_26@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_61
+  object_version: '1.1.1'
+  component: source
+  object_text: answer every request in the same form whichever mode it reads from
+  source_ids:
+  - ARC_27@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_62
+  object_version: '1.1.1'
+  component: refusals
+  object_text: refuse a request that lacks a parameter it needs, naming the parameter
+  source_ids:
+  - ARC_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_63
+  object_version: '1.1.1'
+  component: refusals
+  object_text: refuse a request with a parameter it does not know, or a value it cannot answer, with the
+    reason, before it reads any data
+  source_ids:
+  - ARC_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_64
+  object_version: '1.1.1'
+  component: refusals
+  object_text: answer a request while its data are not there yet as not available, saying so, and answer
+    it once the data are there
+  source_ids:
+  - ARC_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_65
+  object_version: '1.1.1'
+  component: refusals
+  object_text: answer a request whose data source cannot be read as not available, with the reason, never
+    as an empty answer
+  source_ids:
+  - ARC_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_66
+  object_version: '1.1.1'
+  component: operation
+  object_text: answer, whenever it runs, that it runs, also while its data are not there yet
+  source_ids:
+  - SYS_37@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_67
+  object_version: '1.1.1'
+  component: operation
+  object_text: record every error and warning with its time and its cause; a failed read of its data with
+    the request and the error the source gave
+  source_ids:
+  - SYS_38@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_68
+  object_version: '1.1.1'
+  component: operation
+  object_text: start from a release with no setting other than those its operator manual names
+  source_ids:
+  - SYS_35@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_69
+  object_version: '1.1.1'
+  component: export
+  object_text: answer each table as JSON or as CSV, as asked, the CSV with the rows of the JSON
+  source_ids:
+  - ARC_36@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_70
+  object_version: '1.1.1'
+  component: export
+  object_text: answer the records of a scope complete, each with its history
+  source_ids:
+  - SYS_32@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_71
+  object_version: '1.1.1'
+  component: export
+  object_text: make of the views chosen a document with their tables and charts, readable without treporting
+  source_ids:
+  - SYS_85@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_72
+  object_version: '1.1.1'
+  component: export
+  object_text: name in every report the data set, the revision and the build it was made from
+  source_ids:
+  - SYS_95@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_73
+  object_version: '1.1.1'
+  component: export
+  object_text: name in every report how many objects of each kind it was made from
+  source_ids:
+  - SYS_97@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_74
+  object_version: '1.1.1'
+  component: access
+  object_text: refuse a request that carries no identity of a user
+  source_ids:
+  - SYS_39@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_75
+  object_version: '1.1.1'
+  component: access
+  object_text: answer a request only where the role of its user grants it
+  source_ids:
+  - SYS_39@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_76
+  object_version: '1.1.1'
+  component: access
+  object_text: answer a user only the data of the organizations and projects their role grants
+  source_ids:
+  - SYS_88@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_77
+  object_version: '1.1.1'
+  component: access
+  object_text: answer the record of what users did only to the roles allowed to see it
+  source_ids:
+  - SYS_90@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_78
+  object_version: '1.1.1'
+  component: audit
+  object_text: record for every report who produced it, when, from which data set and revision, and with
+    which parameters
+  source_ids:
+  - SYS_40@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_79
+  object_version: '1.1.1'
+  component: audit
+  object_text: give every report an identity of its own and a fingerprint of the data it was made from
+  source_ids:
+  - SYS_43@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_80
+  object_version: '1.1.1'
+  component: audit
+  object_text: record of what users did only what the purposes set need
+  source_ids:
+  - SYS_44@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_81
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of a requirement as the share of the steps of the chain it has reached
+    in a row, from the first step up to the first gap
+  source_ids:
+  - SYS_45@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_82
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of each group - RG-SYS-R, RG-SW-R, RG-SC, RG-OC, RG-SW-TC, RG-SW-TR,
+    RG-SYS-TC, RG-SYS-TR - as the share of the steps of that group reached
+  source_ids:
+  - SYS_46@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_83
+  object_version: '1.1.1'
+  component: maturity
+  object_text: count a test result as reached only when it passed
+  source_ids:
+  - SYS_47@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_84
+  object_version: '1.1.1'
+  component: maturity
+  object_text: count a step as reached only when every branch below the requirement reaches it
+  source_ids:
+  - SYS_48@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_85
+  object_version: '1.1.1'
+  component: maturity
+  object_text: take the longest chain from the process reference model in use, with a level each for source
+    code and object code coverage; ASPICE with 20 steps where none is asked for
+  source_ids:
+  - SYS_49@1.2.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_86
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of a level, a feature or a release as the mean of the maturity of its
+    requirements
+  source_ids:
+  - SYS_50@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_87
+  object_version: '1.1.1'
+  component: maturity
+  object_text: leave out of the chain every step whose level holds no object in the release
+  source_ids:
+  - SYS_79@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_88
+  object_version: '1.1.1'
+  component: maturity
+  object_text: answer with every maturity, and name in every report, the chain it used and the steps it
+    left out
+  source_ids:
+  - SYS_80@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_89
+  object_version: '1.1.1'
+  component: maturity
+  object_text: answer the data grouped by feature, one group per feature
+  source_ids:
+  - SYS_84@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_90
+  object_version: '1.1.1'
+  component: server
+  object_text: answer every request from a data set of size large
+  source_ids:
+  - SYS_51@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_91
+  object_version: '1.1.1'
+  component: server
+  object_text: answer each request of a view on a data set of size large within the share of the time
+    given that falls to the reporter
+  source_ids:
+  - SYS_52@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_92
+  object_version: '1.1.1'
+  component: server
+  object_text: be ready to answer from its data within the time given after it was started
+  source_ids:
+  - SYS_54@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_93
+  object_version: '1.1.1'
+  component: server
+  object_text: answer from a data file or from data in memory within the memory and the processor time
+    given
+  source_ids:
+  - SYS_55@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_94
+  object_version: '1.1.1'
+  component: server
+  object_text: answer the number of users given at once, each request within the share of the time given
+    that falls to the reporter
+  source_ids:
+  - SYS_56@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_95
+  object_version: '1.1.1'
+  component: licence
+  object_text: check on every request to a licensed feature the licence of the installation, and refuse
+    the request with the reason where it is missing
+  source_ids:
+  - SYS_58@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_96
+  object_version: '1.1.1'
+  component: licence
+  object_text: answer which features the installation is licensed for
+  source_ids:
+  - SYS_59@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_97
+  object_version: '1.1.1'
+  component: delivery
+  object_text: answer the version of treporting it belongs to
+  source_ids:
+  - SYS_91@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_98
+  object_version: '1.1.1'
+  component: delivery
+  object_text: carry in its container the licence texts and the notices of every component it contains
+  source_ids:
+  - SYS_93@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_99
+  object_version: '1.1.1'
+  component: states
+  object_text: answer and count the state of every object from its mapped value, never from the value
+    as read
+  source_ids:
+  - SYS_68@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_100
+  object_version: '1.1.1'
+  component: states
+  object_text: answer with every value whether it is the value as read or the one derived
+  source_ids:
+  - SYS_68@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_101
+  object_version: '1.1.1'
+  component: plausibility
+  object_text: analyse a data set against the rules of plausibility, as a report, without changing the
+    data set
+  source_ids:
+  - SYS_70@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_102
+  object_version: '1.1.1'
+  component: plausibility
+  object_text: answer every finding of plausibility with its rule and its objects
+  source_ids:
+  - SYS_71@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_103
+  object_version: '1.1.1'
+  component: verification
+  object_text: answer every finding of the customer in a baseline with its evaluation - evaluated or open,
+    by whom, and where it is written
+  source_ids:
+  - SYS_72@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_104
+  object_version: '1.1.1'
+  component: verification
+  object_text: answer with every requirement its verification method
+  source_ids:
+  - SYS_73@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_105
+  object_version: '1.1.1'
+  component: verification
+  object_text: answer per work product its status, who approved it and when, and its reviews in their
+    order with criteria, result per criterion, reviewer, time, revision reviewed and change since the
+    review before
+  source_ids:
+  - SYS_74@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_106
+  object_version: '1.1.1'
+  component: verification
+  object_text: count a review of a work product only for the revision it reviewed, never for a newer one
+  source_ids:
+  - SYS_75@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test
+- object_key: SR_107
+  object_version: '1.1.1'
+  component: verification
+  object_text: count a passed inspection of the realization of a requirement as its verification, where
+    its verification method is inspection
+  source_ids:
+  - SYS_76@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: draft
+  verification_method:
+  - test

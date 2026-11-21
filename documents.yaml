@@ -10,3 +10,10 @@ documents:
   object_hash: '7588b92'
   status: approved
   verification_method: [review]
+- name: reporter/requirements/software-requirements.md
+  type: explanation
+  level: r5
+  object_version: '1.1.1'
+  object_hash: '531c810'
+  status: draft
+  verification_method: [review]
