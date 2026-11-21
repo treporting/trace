@@ -7,6 +7,6 @@ documents:
 - name: README.md
   type: document
   object_version: '1.1.1'
-  object_hash: 'd74ed3a'
-  status: draft
+  object_hash: '7588b92'
+  status: approved
   verification_method: [review]
