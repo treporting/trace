@@ -35,6 +35,51 @@
           "merge"
         ]
       }
+    },
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": false,
+        "do_not_enforce_on_create": false,
+        "required_status_checks": [
+          {
+            "context": "reviewcheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "schemacheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "rulesetcheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "annotationcheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "uplinkcheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "approvalcheck",
+            "integration_id": 15368
+          },
+          {
+            "context": "build / build",
+            "integration_id": 15368
+          },
+          {
+            "context": "build / lint",
+            "integration_id": 15368
+          },
+          {
+            "context": "build / test",
+            "integration_id": 15368
+          }
+        ]
+      }
     }
   ],
   "bypass_actors": []
