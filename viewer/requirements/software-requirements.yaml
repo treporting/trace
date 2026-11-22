@@ -230,7 +230,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_20
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   component: filters
   object_text: send each narrowing chosen with every request whose answer the reporter narrows by it,
     and every one as `*` or not at all
@@ -238,7 +238,7 @@ requirements:
   - ARC_31@1.1.1
   priority: 'medium'
   safety: ''
-  status: review
+  status: approved
   verification_method:
   - test
 - object_key: SR_21
