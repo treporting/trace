@@ -1,0 +1,270 @@
+# Software requirements of extractor-content (ARC_5), r5: from the system requirements allocated
+# to extractor-content and the requirements of the architecture on it and on its interfaces ARC_15,
+# ARC_16 and ARC_20. What explains them is in software-requirements.md.
+# Format: formats.md of specs-and-deploy-process
+schema: schemas/software-requirements.schema.json
+type: requirements
+level: r5
+documents: [extractor-content/requirements/software-requirements.md]
+requirements:
+- object_key: SR_1
+  object_version: '1.1.1'
+  component: configuration
+  object_text: take each part of the configuration from a file, from the command line or from the environment
+  source_ids:
+  - ARC_78@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_2
+  object_version: '1.1.1'
+  component: configuration
+  object_text: take the release a library is delivered into from the configuration
+  source_ids:
+  - ARC_79@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_3
+  object_version: '1.1.1'
+  component: configuration
+  object_text: say a library the configuration names in no release as an error, with the library, and
+    read none of its files
+  source_ids:
+  - SYS_38@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_4
+  object_version: '1.1.1'
+  component: configuration
+  object_text: map the fields of each kind of file to the model by the mapping of the configuration
+  source_ids:
+  - SYS_22@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_5
+  object_version: '1.1.1'
+  component: plug-ins
+  object_text: start a package for each kind of content as a program of its own, and hand it the configuration
+  source_ids:
+  - ARC_80@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_6
+  object_version: '1.1.1'
+  component: plug-ins
+  object_text: hand each file to the packages of its kind only
+  source_ids:
+  - ARC_63@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_7
+  object_version: '1.1.1'
+  component: plug-ins
+  object_text: take the baseline before its files, and put every file that follows into that baseline
+  source_ids:
+  - ARC_62@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_8
+  object_version: '1.1.1'
+  component: plug-ins
+  object_text: make what spans several files - a link - once the last file of a baseline is handed over
+  source_ids:
+  - ARC_64@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_9
+  object_version: '1.1.1'
+  component: requirements
+  object_text: hand every requirement read with its scope, its key, its level, its state and the person
+    responsible
+  source_ids:
+  - ARC_65@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_10
+  object_version: '1.1.1'
+  component: tests
+  object_text: hand every test case, test procedure and test result read with its scope, its key, its
+    level and its state, each as a kind of its own
+  source_ids:
+  - ARC_65@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_11
+  object_version: '1.1.1'
+  component: code
+  object_text: hand every piece of code that names the requirements it implements, in the format of formats.md,
+    with its scope, its key and its unit
+  source_ids:
+  - ARC_65@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_12
+  object_version: '1.1.1'
+  component: links
+  object_text: hand every link read with its type and its two ends, also where an end is missing
+  source_ids:
+  - ARC_66@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_13
+  object_version: '1.1.1'
+  component: work products
+  object_text: hand each file read as a work product with its baseline, its revision, its level, its kind
+    and its store
+  source_ids:
+  - ARC_67@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_14
+  object_version: '1.1.1'
+  component: reviews
+  object_text: hand per work product its status, who approved it and when
+  source_ids:
+  - ARC_68@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_15
+  object_version: '1.1.1'
+  component: reviews
+  object_text: hand per work product its reviews in their order, each with its criteria, its result per
+    criterion, its reviewer, its time and the revision reviewed
+  source_ids:
+  - ARC_68@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_16
+  object_version: '1.1.1'
+  component: reviews
+  object_text: hand every finding of the customer with its evaluation - evaluated or open, by whom, and
+    where it is written
+  source_ids:
+  - ARC_68@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_17
+  object_version: '1.1.1'
+  component: as read
+  object_text: hand every value as the file holds it, and derive none
+  source_ids:
+  - ARC_69@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_18
+  object_version: '1.1.1'
+  component: as read
+  object_text: hand a value the file does not give as unknown, apart from an empty one
+  source_ids:
+  - ARC_69@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_19
+  object_version: '1.1.1'
+  component: integrity
+  object_text: name every object it could not read, with the file and the reason
+  source_ids:
+  - ARC_70@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_20
+  object_version: '1.1.1'
+  component: integrity
+  object_text: hand per kind of object, per type of link and per state how many were read and how many
+    refused
+  source_ids:
+  - ARC_71@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_21
+  object_version: '1.1.1'
+  component: integrity
+  object_text: extract from the same files the same information on every run
+  source_ids:
+  - SYS_24@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_22
+  object_version: '1.1.1'
+  component: integrity
+  object_text: hand its errors and warnings with time and cause
+  source_ids:
+  - ARC_72@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_23
+  object_version: '1.1.1'
+  component: performance
+  object_text: extract a data set of size large within the time given to its import
+  source_ids:
+  - SYS_53@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
