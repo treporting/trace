@@ -1242,3 +1242,15 @@ requirements:
   status: approved
   verification_method:
   - test
+- object_key: SR_108
+  object_version: '1.1.1'
+  component: filters
+  object_text: answer a request that names no release (`*`) from the newest release of the project and
+    the newest library that release delivered
+  source_ids:
+  - ARC_56@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
