@@ -238,7 +238,7 @@ requirements:
   - ARC_31@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: review
   verification_method:
   - test
 - object_key: SR_21
