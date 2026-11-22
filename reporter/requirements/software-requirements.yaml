@@ -1251,6 +1251,6 @@ requirements:
   - ARC_56@1.1.1
   priority: 'medium'
   safety: ''
-  status: review
+  status: approved
   verification_method:
   - test
