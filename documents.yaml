@@ -24,3 +24,10 @@ documents:
   object_hash: '053a6e9'
   status: approved
   verification_method: [review]
+- name: mcp/requirements/software-requirements.md
+  type: explanation
+  level: r5
+  object_version: '1.1.1'
+  object_hash: 'c7953bd'
+  status: approved
+  verification_method: [review]

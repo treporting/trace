@@ -1,0 +1,269 @@
+# Review of SR_1, SR_2, SR_3, SR_4, SR_5, SR_6, SR_7, SR_8, SR_9, SR_10, SR_11, SR_12, SR_13, SR_14, SR_15 against the criteria of the level r5.
+# Made with reviewskeleton; a proposal of Claude Code - the reviewer decides.
+# Format: ../../formats.md, section Reviews.
+schema: schemas/review-result.schema.json
+type: review
+level: r5
+object_version: '1.1.1'
+status: completed
+created_by: Mathias Fischer
+created_at: '2026-11-22T02:43:15+01:00'
+completed_at: '2026-11-22T02:47:51+01:00'
+criteria: reviews/criteria-r5.yaml
+criteria_revision: '0735b06'
+results:
+- object_key: RR_1
+  target_ids: [SR_1]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_2
+  target_ids: [SR_2]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_3
+  target_ids: [SR_3]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_4
+  target_ids: [SR_4]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_5
+  target_ids: [SR_5]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_6
+  target_ids: [SR_6]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_7
+  target_ids: [SR_7]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_8
+  target_ids: [SR_8]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_9
+  target_ids: [SR_9]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_10
+  target_ids: [SR_10]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_11
+  target_ids: [SR_11]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_12
+  target_ids: [SR_12]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_13
+  target_ids: [SR_13]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_14
+  target_ids: [SR_14]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_15
+  target_ids: [SR_15]
+  file: mcp/requirements/software-requirements.yaml
+  revision: '37a07b7'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
