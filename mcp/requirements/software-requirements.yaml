@@ -9,11 +9,11 @@ level: r5
 documents: [mcp/requirements/software-requirements.md]
 requirements:
 - object_key: SR_1
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: tools
   object_text: offer an assistant one tool per view of the viewer
   source_ids:
-  - ARC_53@1.1.1
+  - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
@@ -32,11 +32,11 @@ requirements:
   verification_method:
   - test
 - object_key: SR_3
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: answers
   object_text: say with an answer it shortens how many rows it left out
   source_ids:
-  - ARC_54@1.1.1
+  - ARC_54@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
@@ -167,23 +167,23 @@ requirements:
   verification_method:
   - test
 - object_key: SR_15
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: answers
   object_text: answer with each tool at most as many rows as the assistant names, 100 where it names none
   source_ids:
-  - ARC_54@1.1.1
+  - ARC_54@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_16
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: requests
   object_text: send with every request the organization the server is started with, and offer the
     assistant no parameter for it
   source_ids:
-  - ARC_55@1.1.1
+  - ARC_55@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
