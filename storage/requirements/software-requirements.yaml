@@ -14,7 +14,7 @@ requirements:
   - ARC_286@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_2
@@ -27,7 +27,7 @@ requirements:
   - ARC_44@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_3
@@ -39,7 +39,7 @@ requirements:
   - ARC_286@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_4
@@ -50,7 +50,7 @@ requirements:
   - ARC_286@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_5
@@ -61,7 +61,7 @@ requirements:
   - ARC_286@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_6
@@ -73,7 +73,7 @@ requirements:
   - ARC_287@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_7
@@ -85,7 +85,7 @@ requirements:
   - ARC_288@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_8
@@ -97,7 +97,7 @@ requirements:
   - ARC_289@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_9
@@ -108,7 +108,7 @@ requirements:
   - ARC_151@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_10
@@ -120,7 +120,7 @@ requirements:
   - ARC_290@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_11
@@ -132,7 +132,7 @@ requirements:
   - ARC_290@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_12
@@ -143,7 +143,7 @@ requirements:
   - ARC_290@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_13
@@ -155,7 +155,7 @@ requirements:
   - ARC_139@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_14
@@ -167,7 +167,7 @@ requirements:
   - ARC_140@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_15
@@ -178,7 +178,7 @@ requirements:
   - ARC_141@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_16
@@ -189,7 +189,7 @@ requirements:
   - ARC_142@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_17
@@ -201,7 +201,7 @@ requirements:
   - ARC_143@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_18
@@ -213,6 +213,6 @@ requirements:
   - ARC_150@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
