@@ -278,7 +278,7 @@ requirements:
   - ARC_95@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_25
@@ -290,6 +290,6 @@ requirements:
   - ARC_95@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
