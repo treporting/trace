@@ -203,10 +203,10 @@ requirements:
   component: states
   object_text: count the states of the source code and of the object code apart, per release and per library
   source_ids:
-  - ARC_210@1.1.1
+  - SYS_77@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_18
@@ -936,10 +936,10 @@ requirements:
   object_text: give the maturity of a requirement as the share of the steps of the chain it has reached
     in a row, from the first step up to the first gap
   source_ids:
-  - ARC_189@1.1.1
+  - SYS_45@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_82
@@ -948,10 +948,10 @@ requirements:
   object_text: give the maturity of each group - RG-SYS-R, RG-SW-R, RG-SC, RG-OC, RG-SW-TC, RG-SW-TR,
     RG-SYS-TC, RG-SYS-TR - as the share of the steps of that group reached
   source_ids:
-  - ARC_190@1.1.1
+  - SYS_46@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_83
@@ -959,10 +959,10 @@ requirements:
   component: maturity
   object_text: count a test result as reached only when it passed
   source_ids:
-  - ARC_191@1.1.1
+  - SYS_47@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_84
@@ -970,10 +970,10 @@ requirements:
   component: maturity
   object_text: count a step as reached only when every branch below the requirement reaches it
   source_ids:
-  - ARC_192@1.1.1
+  - SYS_48@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_85
@@ -994,10 +994,10 @@ requirements:
   object_text: give the maturity of a level, a feature or a release as the mean of the maturity of its
     requirements
   source_ids:
-  - ARC_194@1.1.1
+  - SYS_50@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_87
@@ -1236,10 +1236,10 @@ requirements:
   object_text: count a passed inspection of the realization of a requirement as its verification, where
     its verification method is inspection
   source_ids:
-  - ARC_209@1.1.1
+  - SYS_76@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_108

@@ -1,4 +1,4 @@
-# Review of SR_11, SR_12, SR_15, SR_17, SR_18, SR_24, SR_27, SR_28, SR_29, SR_30, SR_31, SR_35, SR_36, SR_37, SR_39, SR_40, SR_41, SR_42, SR_43, SR_44, SR_45, SR_46, SR_48, SR_49, SR_50, SR_51, SR_52, SR_53, SR_54, SR_55, SR_66, SR_67, SR_68, SR_70, SR_71, SR_72, SR_73, SR_74, SR_75, SR_76, SR_77, SR_78, SR_79, SR_80, SR_81, SR_82, SR_83, SR_84, SR_85, SR_86, SR_87, SR_88, SR_89, SR_90, SR_91, SR_92, SR_93, SR_94, SR_95, SR_96, SR_97, SR_98, SR_99, SR_100, SR_101, SR_102, SR_103, SR_104, SR_105, SR_106, SR_107 against the criteria of the level r5.
+# Review of SR_11, SR_12, SR_15, SR_18, SR_24, SR_27, SR_28, SR_29, SR_30, SR_31, SR_35, SR_36, SR_37, SR_39, SR_40, SR_41, SR_42, SR_43, SR_44, SR_45, SR_46, SR_48, SR_49, SR_50, SR_51, SR_52, SR_53, SR_54, SR_55, SR_66, SR_67, SR_68, SR_70, SR_71, SR_72, SR_73, SR_74, SR_75, SR_76, SR_77, SR_78, SR_79, SR_80, SR_85, SR_87, SR_88, SR_89, SR_90, SR_91, SR_92, SR_93, SR_94, SR_95, SR_96, SR_97, SR_98, SR_99, SR_100, SR_101, SR_102, SR_103, SR_104, SR_105, SR_106 against the criteria of the level r5.
 # Made with reviewskeleton; a proposal of Claude Code - the reviewer decides.
 # Format: ../../formats.md, section Reviews.
 schema: schemas/review-result.schema.json
@@ -63,23 +63,6 @@ results:
     RC_11: passed
   verdict: passed
 - object_key: RR_4
-  target_ids: [SR_17]
-  file: reporter/requirements/software-requirements.yaml
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_5
   target_ids: [SR_18]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -96,7 +79,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_6
+- object_key: RR_5
   target_ids: [SR_24]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -113,7 +96,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_7
+- object_key: RR_6
   target_ids: [SR_27]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -130,7 +113,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_8
+- object_key: RR_7
   target_ids: [SR_28]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -147,7 +130,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_9
+- object_key: RR_8
   target_ids: [SR_29]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -164,7 +147,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_10
+- object_key: RR_9
   target_ids: [SR_30]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -181,7 +164,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_11
+- object_key: RR_10
   target_ids: [SR_31]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -198,7 +181,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_12
+- object_key: RR_11
   target_ids: [SR_35]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -215,7 +198,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_13
+- object_key: RR_12
   target_ids: [SR_36]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -232,7 +215,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_14
+- object_key: RR_13
   target_ids: [SR_37]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -249,7 +232,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_15
+- object_key: RR_14
   target_ids: [SR_39]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -266,7 +249,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_16
+- object_key: RR_15
   target_ids: [SR_40]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -283,7 +266,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_17
+- object_key: RR_16
   target_ids: [SR_41]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -300,7 +283,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_18
+- object_key: RR_17
   target_ids: [SR_42]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -317,7 +300,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_19
+- object_key: RR_18
   target_ids: [SR_43]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -334,7 +317,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_20
+- object_key: RR_19
   target_ids: [SR_44]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -351,7 +334,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_21
+- object_key: RR_20
   target_ids: [SR_45]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -368,7 +351,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_22
+- object_key: RR_21
   target_ids: [SR_46]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -385,7 +368,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_23
+- object_key: RR_22
   target_ids: [SR_48]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -402,7 +385,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_24
+- object_key: RR_23
   target_ids: [SR_49]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -419,7 +402,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_25
+- object_key: RR_24
   target_ids: [SR_50]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -436,7 +419,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_26
+- object_key: RR_25
   target_ids: [SR_51]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -453,7 +436,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_27
+- object_key: RR_26
   target_ids: [SR_52]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -470,7 +453,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_28
+- object_key: RR_27
   target_ids: [SR_53]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -487,7 +470,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_29
+- object_key: RR_28
   target_ids: [SR_54]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -504,7 +487,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_30
+- object_key: RR_29
   target_ids: [SR_55]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -521,7 +504,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_31
+- object_key: RR_30
   target_ids: [SR_66]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -538,7 +521,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_32
+- object_key: RR_31
   target_ids: [SR_67]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -555,7 +538,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_33
+- object_key: RR_32
   target_ids: [SR_68]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -572,7 +555,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_34
+- object_key: RR_33
   target_ids: [SR_70]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -589,7 +572,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_35
+- object_key: RR_34
   target_ids: [SR_71]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -606,7 +589,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_36
+- object_key: RR_35
   target_ids: [SR_72]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -623,7 +606,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_37
+- object_key: RR_36
   target_ids: [SR_73]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -640,7 +623,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_38
+- object_key: RR_37
   target_ids: [SR_74]
   file: reporter/requirements/software-requirements.yaml
   revision: 'bde237d'
@@ -657,7 +640,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_39
+- object_key: RR_38
   target_ids: [SR_75]
   revision: 'bde237d'
   criteria:
@@ -673,7 +656,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_40
+- object_key: RR_39
   target_ids: [SR_76]
   revision: 'bde237d'
   criteria:
@@ -689,7 +672,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_41
+- object_key: RR_40
   target_ids: [SR_77]
   revision: 'bde237d'
   criteria:
@@ -705,7 +688,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_42
+- object_key: RR_41
   target_ids: [SR_78]
   revision: 'bde237d'
   criteria:
@@ -721,7 +704,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_43
+- object_key: RR_42
   target_ids: [SR_79]
   revision: 'bde237d'
   criteria:
@@ -737,7 +720,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_44
+- object_key: RR_43
   target_ids: [SR_80]
   revision: 'bde237d'
   criteria:
@@ -753,71 +736,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_45
-  target_ids: [SR_81]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_46
-  target_ids: [SR_82]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_47
-  target_ids: [SR_83]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_48
-  target_ids: [SR_84]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_49
+- object_key: RR_44
   target_ids: [SR_85]
   revision: 'bde237d'
   criteria:
@@ -833,23 +752,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_50
-  target_ids: [SR_86]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_51
+- object_key: RR_45
   target_ids: [SR_87]
   revision: 'bde237d'
   criteria:
@@ -865,7 +768,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_52
+- object_key: RR_46
   target_ids: [SR_88]
   revision: 'bde237d'
   criteria:
@@ -881,7 +784,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_53
+- object_key: RR_47
   target_ids: [SR_89]
   revision: 'bde237d'
   criteria:
@@ -897,7 +800,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_54
+- object_key: RR_48
   target_ids: [SR_90]
   revision: 'bde237d'
   criteria:
@@ -913,7 +816,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_55
+- object_key: RR_49
   target_ids: [SR_91]
   revision: 'bde237d'
   criteria:
@@ -929,7 +832,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_56
+- object_key: RR_50
   target_ids: [SR_92]
   revision: 'bde237d'
   criteria:
@@ -945,7 +848,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_57
+- object_key: RR_51
   target_ids: [SR_93]
   revision: 'bde237d'
   criteria:
@@ -961,7 +864,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_58
+- object_key: RR_52
   target_ids: [SR_94]
   revision: 'bde237d'
   criteria:
@@ -977,7 +880,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_59
+- object_key: RR_53
   target_ids: [SR_95]
   revision: 'bde237d'
   criteria:
@@ -993,7 +896,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_60
+- object_key: RR_54
   target_ids: [SR_96]
   revision: 'bde237d'
   criteria:
@@ -1009,7 +912,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_61
+- object_key: RR_55
   target_ids: [SR_97]
   revision: 'bde237d'
   criteria:
@@ -1025,7 +928,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_62
+- object_key: RR_56
   target_ids: [SR_98]
   revision: 'bde237d'
   criteria:
@@ -1041,7 +944,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_63
+- object_key: RR_57
   target_ids: [SR_99]
   revision: 'bde237d'
   criteria:
@@ -1057,7 +960,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_64
+- object_key: RR_58
   target_ids: [SR_100]
   revision: 'bde237d'
   criteria:
@@ -1073,7 +976,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_65
+- object_key: RR_59
   target_ids: [SR_101]
   revision: 'bde237d'
   criteria:
@@ -1089,7 +992,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_66
+- object_key: RR_60
   target_ids: [SR_102]
   revision: 'bde237d'
   criteria:
@@ -1105,7 +1008,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_67
+- object_key: RR_61
   target_ids: [SR_103]
   revision: 'bde237d'
   criteria:
@@ -1121,7 +1024,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_68
+- object_key: RR_62
   target_ids: [SR_104]
   revision: 'bde237d'
   criteria:
@@ -1137,7 +1040,7 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_69
+- object_key: RR_63
   target_ids: [SR_105]
   revision: 'bde237d'
   criteria:
@@ -1153,24 +1056,8 @@ results:
     RC_10: passed
     RC_11: passed
   verdict: passed
-- object_key: RR_70
+- object_key: RR_64
   target_ids: [SR_106]
-  revision: 'bde237d'
-  criteria:
-    RC_1: passed
-    RC_2: passed
-    RC_3: passed
-    RC_4: passed
-    RC_5: passed
-    RC_6: passed
-    RC_7: passed
-    RC_8: passed
-    RC_9: passed
-    RC_10: passed
-    RC_11: passed
-  verdict: passed
-- object_key: RR_71
-  target_ids: [SR_107]
   revision: 'bde237d'
   criteria:
     RC_1: passed
