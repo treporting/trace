@@ -74,10 +74,10 @@ requirements:
   object_text: mark a requirement that has no child on the level below it in the head as a missing link;
     mark none where the head has no level below it
   source_ids:
-  - ARC_164@1.1.1
+  - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_7
@@ -86,11 +86,11 @@ requirements:
   object_text: mark a requirement that no test case verifies as a missing test case where its verification
     method is test or names no method; mark none where the method names no test
   source_ids:
-  - ARC_164@1.1.1
-  - ARC_206@1.1.1
+  - SYS_2@1.1.1
+  - SYS_73@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_8
@@ -99,10 +99,10 @@ requirements:
   object_text: mark a requirement of the design level that no source code implements as a missing implementation,
     never as a missing link
   source_ids:
-  - ARC_164@1.1.1
+  - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_9
@@ -110,10 +110,10 @@ requirements:
   component: gaps
   object_text: mark a test case that has no test result as a missing test result
   source_ids:
-  - ARC_164@1.1.1
+  - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_10
@@ -121,10 +121,10 @@ requirements:
   component: gaps
   object_text: count a place marked as missing as not covered, never as covered
   source_ids:
-  - ARC_164@1.1.1
+  - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_11
@@ -168,10 +168,10 @@ requirements:
   object_text: answer the trace by test case - one row per test case of the level asked for, with its
     test result and the requirements it verifies on each level
   source_ids:
-  - ARC_167@1.1.1
+  - SYS_6@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_15
@@ -192,10 +192,10 @@ requirements:
   object_text: count the states of the test cases, the test procedures and the test results of each level
     apart, per release and per library
   source_ids:
-  - ARC_169@1.1.1
+  - SYS_8@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_17
@@ -380,10 +380,10 @@ requirements:
   object_text: mark a hazard or threat that has no measure, and a measure that controls no requirement,
     as a missing link
   source_ids:
-  - ARC_172@1.1.1
+  - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_33
@@ -392,10 +392,10 @@ requirements:
   object_text: mark a hazard or threat none of whose requirements below its measures has a passed test
     result
   source_ids:
-  - ARC_172@1.1.1
+  - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_34
@@ -403,10 +403,10 @@ requirements:
   component: trace
   object_text: name with each requirement a measure controls that measure and its hazard or threat
   source_ids:
-  - ARC_172@1.1.1
+  - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_35
