@@ -1,0 +1,149 @@
+# Review of SR_57, SR_58, SR_59, SR_60, SR_1, SR_25, SR_26, SR_27 against the criteria of the level r5.
+# Made with reviewskeleton; a proposal of Claude Code - the reviewer decides.
+# Format: ../../formats.md, section Reviews.
+schema: schemas/review-result.schema.json
+type: review
+level: r5
+object_version: '1.1.1'
+status: open
+created_by: Mathias Fischer
+created_at: '2026-11-23T23:46:52+01:00'
+criteria: reviews/criteria-r5.yaml
+criteria_revision: '5e52173'
+results:
+- object_key: RR_1
+  target_ids: [SR_57]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_2
+  target_ids: [SR_58]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_3
+  target_ids: [SR_59]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_4
+  target_ids: [SR_60]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_5
+  target_ids: [SR_1]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_6
+  target_ids: [SR_25]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_7
+  target_ids: [SR_26]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
+- object_key: RR_8
+  target_ids: [SR_27]
+  file: reporter/requirements/software-requirements.yaml
+  revision: '1dd7c27'
+  criteria:
+    RC_1: passed
+    RC_2: passed
+    RC_3: passed
+    RC_4: passed
+    RC_5: passed
+    RC_6: passed
+    RC_7: passed
+    RC_8: passed
+    RC_9: passed
+    RC_10: passed
+    RC_11: passed
+  verdict: passed
