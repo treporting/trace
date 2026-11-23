@@ -8,7 +8,7 @@ level: r5
 documents: [viewer/requirements/software-requirements.md]
 requirements:
 - object_key: SR_1
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the trace the reporter answers as a table with one column per level of the head, each
     headed with the name the reporter gives it, never with a name of its own
@@ -17,18 +17,18 @@ requirements:
   - ARC_278@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_2
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user choose the level the trace starts at - user need, requirement, test or hazard
   source_ids:
   - ARC_225@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_3
@@ -67,7 +67,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_6
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show a cell that holds a missing link, test case, implementation or test result in a colour
     of its own, never in the colour of passed or approved
@@ -75,44 +75,44 @@ requirements:
   - ARC_226@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_7
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show per release the requirements that no passed test result verifies
   source_ids:
   - ARC_227@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_8
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show one row per feature with the counted states of each level below it, per release
   source_ids:
   - ARC_228@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_9
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the data grouped by feature, one group per feature
   source_ids:
   - ARC_271@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_10
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: show the counted states of the requirements of a level as a chart, one bar per release
     or library
@@ -120,11 +120,11 @@ requirements:
   - ARC_229@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_11
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user choose between test cases, test procedures and test results, and show the
     states of the one chosen
@@ -132,11 +132,11 @@ requirements:
   - ARC_232@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_12
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: show the counted states of the source code and of the object code apart, per release and
     library
@@ -144,11 +144,11 @@ requirements:
   - ARC_265@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_13
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the trace by test case, one row per test case with its result and the requirements
     it verifies
@@ -156,11 +156,11 @@ requirements:
   - ARC_230@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_14
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show per person responsible the requirements assigned to them that have no implementation
     or no test case
@@ -168,11 +168,11 @@ requirements:
   - ARC_231@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_15
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user choose the organization, the project, the subsystem, the release and the library
     from the lists the reporter answers
@@ -180,7 +180,7 @@ requirements:
   - ARC_233@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_16
@@ -196,29 +196,29 @@ requirements:
   verification_method:
   - test
 - object_key: SR_17
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user choose a span of baselines for a view over time
   source_ids:
   - ARC_233@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_18
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user narrow by platform, launch and stream from the lists the reporter answers
   source_ids:
   - ARC_233@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_19
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user narrow the requirements, the tests and the code by function, feature, priority
     and safety class from the lists the reporter answers
@@ -226,7 +226,7 @@ requirements:
   - ARC_270@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_20
@@ -242,7 +242,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_21
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: show with every table how many objects the narrowing left out, as the reporter answers
     it
@@ -251,11 +251,11 @@ requirements:
   - ARC_270@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_22
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: keep a choice when its list is answered again, where the new list still holds it, and fall
     back to every one otherwise
@@ -263,51 +263,51 @@ requirements:
   - ARC_233@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_23
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: show at all times every filter in effect with its value
   source_ids:
   - ARC_234@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_24
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: mark among the filters shown those the view on screen applies, and only those
   source_ids:
   - ARC_234@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_25
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: narrow a chart exactly as the table beside it
   source_ids:
   - ARC_268@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_26
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: count in a chart exactly the objects of the table beside it
   source_ids:
   - ARC_246@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_27
@@ -322,7 +322,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_28
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the hazards and threats and their measures as columns before the system side of the
     trace, where the user asks for them
@@ -330,11 +330,11 @@ requirements:
   - ARC_235@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_29
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: mark a hazard or threat that has no measure or no passed result, as the reporter marks
     it
@@ -342,22 +342,22 @@ requirements:
   - ARC_235@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_30
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: let the user choose a standard, and show its clauses only
   source_ids:
   - ARC_236@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_31
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show one row per clause, with its key, the requirements that address it with their levels,
     and whether it is open, addressed or verified
@@ -365,18 +365,18 @@ requirements:
   - ARC_236@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_32
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: show per release the clauses that are open, addressed and verified, stacked
   source_ids:
   - ARC_236@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_33
@@ -392,7 +392,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_34
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: offer as process reference models ASPICE, DO-178C, EN 50716, IEC 62304, IEC 61508 and ISO/IEC/IEEE
     12207
@@ -400,11 +400,11 @@ requirements:
   - ARC_266@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_35
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the work products of a baseline with their revision, their level, their kind and the
     tool they are kept in
@@ -412,22 +412,22 @@ requirements:
   - ARC_238@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_36
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: show the work products counted per level and per tool, each once
   source_ids:
   - ARC_238@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_37
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: baselines
   object_text: let the user choose two baselines, and show the objects and the documents added, removed
     or changed between them
@@ -435,11 +435,11 @@ requirements:
   - ARC_239@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_38
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show the releases and libraries of a project, each with its start, its end and the release
     a library was delivered into
@@ -447,33 +447,33 @@ requirements:
   - ARC_240@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_39
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: show the libraries of each subsystem as spans on a time axis, against the releases as lines
   source_ids:
   - ARC_240@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_40
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show how a project is split into its subsystems, and their components with their units
   source_ids:
   - ARC_269@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_41
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: show on every view the version of the viewer and the revision of the reporter, when each
     was built, and which data set it answers from
@@ -481,11 +481,11 @@ requirements:
   - ARC_241@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_42
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: show a value that is unknown as unknown, never as zero, empty or passed - its own build
     where the build did not stamp one too
@@ -493,66 +493,66 @@ requirements:
   - ARC_244@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_43
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: show on every view whether its data set is complete, incomplete or unverified
   source_ids:
   - ARC_242@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_44
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: show on every view how many objects of each kind it answers from
   source_ids:
   - ARC_280@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_45
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: say on every view whether it shows the values as read or the values derived
   source_ids:
   - ARC_260@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_46
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: hand out the table of every view as a CSV file
   source_ids:
   - ARC_247@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_47
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: hand out every chart as a picture
   source_ids:
   - ARC_247@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_48
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: make of the views chosen a document with the tables and charts chosen, readable without
     treporting
@@ -560,77 +560,77 @@ requirements:
   - ARC_272@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_49
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: name in every report the data set, the revision and the build it was made from
   source_ids:
   - ARC_279@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_50
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: name in every report how many objects of each kind it was made from
   source_ids:
   - ARC_281@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_51
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: name in every report the chain it used and the steps it left out
   source_ids:
   - ARC_267@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_52
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: navigation
   object_text: say on the first screen what treporting does and where to start
   source_ids:
   - ARC_248@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_53
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: navigation
   object_text: lead back to the first screen from every view
   source_ids:
   - ARC_248@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_54
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: status
   object_text: show, while a view is loading, that it is
   source_ids:
   - ARC_249@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_55
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: status
   object_text: while the reporter says its data are not there yet, ask again by itself, and fill the view
     on screen when they arrive
@@ -638,11 +638,11 @@ requirements:
   - ARC_249@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_56
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: status
   object_text: show on every view, while the reporter or a part of treporting is not available, that it
     is not and the reason given
@@ -650,7 +650,7 @@ requirements:
   - ARC_251@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_57
@@ -665,29 +665,29 @@ requirements:
   verification_method:
   - test
 - object_key: SR_58
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: navigation
   object_text: give every view a link that opens it for another user with the same narrowing
   source_ids:
   - ARC_273@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_59
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: give every chart a title that names the objects it counts
   source_ids:
   - ARC_274@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_60
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: charts
   object_text: open from each part of a chart the table of the objects it counts, with the filters set
     to them
@@ -695,11 +695,11 @@ requirements:
   - ARC_282@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_61
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: performance
   object_text: show a view of a data set of size large within the share of the time given that falls to
     the viewer
@@ -707,121 +707,121 @@ requirements:
   - ARC_254@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_62
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: start from a release with no setting other than those its operator manual names
   source_ids:
   - ARC_250@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_63
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: record its errors and warnings with their time and cause
   source_ids:
   - ARC_252@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_64
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: show a user only the views their role grants, and none before they are authenticated
   source_ids:
   - ARC_253@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_65
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: show the record of what users did only to the roles allowed to see it
   source_ids:
   - ARC_275@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_66
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: licence
   object_text: show for a request refused for a missing licence the reason the reporter gives
   source_ids:
   - ARC_256@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_67
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: licence
   object_text: show which features the installation is licensed for
   source_ids:
   - ARC_257@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_68
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: pages
   object_text: name on the demo where a vulnerability is reported and how it is handled
   source_ids:
   - ARC_259@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_69
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: show the version of treporting in use
   source_ids:
   - ARC_276@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_70
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: delivery
   object_text: carry in its container the licence texts and the notices of every component it contains
   source_ids:
   - ARC_277@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_71
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show every finding of plausibility with its rule and its objects, in a view of its own
   source_ids:
   - ARC_261@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_72
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show every finding of the customer in a baseline with its evaluation - evaluated or open,
     by whom, and where it is written
@@ -829,22 +829,22 @@ requirements:
   - ARC_262@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_73
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show with every requirement its verification method
   source_ids:
   - ARC_263@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_74
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: tables
   object_text: show per work product its status, who approved it and when, and its reviews in their order
     with criteria, result per criterion, reviewer, time, revision reviewed and change since the review
@@ -853,6 +853,6 @@ requirements:
   - ARC_264@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test

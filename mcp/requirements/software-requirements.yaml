@@ -43,25 +43,25 @@ requirements:
   verification_method:
   - test
 - object_key: SR_4
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: answers
   object_text: name with every answer the view of the viewer that shows the same
   source_ids:
   - ARC_81@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_5
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: answers
   object_text: name with every answer the filters that show the same in that view, the scope among them
   source_ids:
   - ARC_81@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_6
@@ -156,14 +156,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_14
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: start from a release with no setting other than those its operator manual names
   source_ids:
   - ARC_82@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_15

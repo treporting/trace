@@ -128,18 +128,18 @@ requirements:
   verification_method:
   - test
 - object_key: SR_11
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: trace
   object_text: answer per release the requirements that no passed test result verifies
   source_ids:
   - ARC_165@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_12
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: features
   object_text: answer one row per feature, with the states of its objects counted on each level below
     it, per release
@@ -147,7 +147,7 @@ requirements:
   - ARC_166@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_13
@@ -175,7 +175,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_15
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: trace
   object_text: answer per person responsible the requirements assigned to them that have no implementation
     or no test case
@@ -183,7 +183,7 @@ requirements:
   - ARC_168@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_16
@@ -210,7 +210,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_18
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: states
   object_text: count in the states of each release exactly the objects the trace of that release answers
     under the same narrowing
@@ -218,7 +218,7 @@ requirements:
   - ARC_181@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_19
@@ -281,14 +281,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_24
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: narrow the counted states of a request as it narrows its table
   source_ids:
   - ARC_214@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_25
@@ -317,7 +317,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_27
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: answer with every table how many objects of its scope the narrowing left out
   source_ids:
@@ -325,22 +325,22 @@ requirements:
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_28
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: answer back the scope it answers from and every narrowing it applied
   source_ids:
   - ARC_170@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_29
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: carry the safety class down the trace to every object below; where an object has several
     parents, the highest among theirs
@@ -348,22 +348,22 @@ requirements:
   - ARC_171@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_30
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: carry function, feature and priority down the trace to every object below
   source_ids:
   - ARC_171@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_31
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: carry platform and launch down the trace to every object below; where an object has several
     parents, the union of theirs
@@ -371,7 +371,7 @@ requirements:
   - ARC_171@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_32
@@ -410,18 +410,18 @@ requirements:
   verification_method:
   - test
 - object_key: SR_35
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: compliance
   object_text: answer per clause of a standard the requirements that address it, with their levels
   source_ids:
   - ARC_173@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_36
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: compliance
   object_text: give a clause the state open where none of the requirements addressing it is in the release,
     verified where each one there has a passed test result, and addressed otherwise
@@ -429,18 +429,18 @@ requirements:
   - ARC_173@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_37
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: compliance
   object_text: count per release the clauses that are open, addressed and verified
   source_ids:
   - ARC_173@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_38
@@ -456,7 +456,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_39
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: process
   object_text: leave out a level the process reference model asked for does not have, and still trace
     through it to the levels below
@@ -464,11 +464,11 @@ requirements:
   - ARC_30@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_40
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: process
   object_text: offer as process reference models ASPICE, DO-178C, EN 50716, IEC 62304, IEC 61508 and ISO/IEC/IEEE
     12207, and refuse any other with the reason
@@ -476,11 +476,11 @@ requirements:
   - ARC_211@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_41
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: process
   object_text: take the levels of a customer, their names and the chain of their steps from a configuration,
     and answer with them instead of those of a reference model
@@ -488,11 +488,11 @@ requirements:
   - ARC_221@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_42
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: baselines
   object_text: list the work products of a baseline, each once, with its revision, its level, its kind
     and the tool it is kept in
@@ -500,11 +500,11 @@ requirements:
   - ARC_174@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_43
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: baselines
   object_text: count the work products of a baseline under its own project, never under a baseline of
     the same name of another project
@@ -512,11 +512,11 @@ requirements:
   - ARC_174@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_44
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: baselines
   object_text: answer for two baselines the objects and the documents added, removed or changed between
     them
@@ -524,11 +524,11 @@ requirements:
   - ARC_175@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_45
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: baselines
   object_text: list the releases of a project and the libraries of its subsystems, each with its start,
     its end and the release it was delivered into, in the order they were delivered
@@ -536,18 +536,18 @@ requirements:
   - ARC_176@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_46
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: structure
   object_text: answer how a project is split into its subsystems, and their components with their units
   source_ids:
   - ARC_33@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_47
@@ -562,91 +562,91 @@ requirements:
   verification_method:
   - test
 - object_key: SR_48
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer its revision and the time it was built
   source_ids:
   - ARC_177@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_49
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer which data set it answers from
   source_ids:
   - ARC_177@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_50
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: give a value it does not know as unknown, never as zero, empty or passed
   source_ids:
   - ARC_180@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_51
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer every request the same, to the byte, for the same data set, revision and build
   source_ids:
   - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_52
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer every list in an order of its own, never in the order of the storage
   source_ids:
   - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_53
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: leave the data set unchanged by a request
   source_ids:
   - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_54
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer with every answer whether its data set is complete, incomplete or unverified
   source_ids:
   - ARC_178@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_55
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: provenance
   object_text: answer with every answer how many objects of each kind it answers from
   source_ids:
   - ARC_223@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_56
@@ -764,18 +764,18 @@ requirements:
   verification_method:
   - test
 - object_key: SR_66
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: answer, whenever it runs, that it runs, also while its data are not there yet
   source_ids:
   - ARC_37@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_67
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: record every error and warning with its time and its cause; a failed read of its data with
     the request and the error the source gave
@@ -783,18 +783,18 @@ requirements:
   - ARC_184@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_68
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: operation
   object_text: start from a release with no setting other than those its operator manual names
   source_ids:
   - ARC_183@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_69
@@ -809,95 +809,95 @@ requirements:
   verification_method:
   - test
 - object_key: SR_70
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: answer the records of a scope complete, each with its history
   source_ids:
   - ARC_182@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_71
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: make of the views chosen a document with their tables and charts, readable without treporting
   source_ids:
   - ARC_216@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_72
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: name in every report the data set, the revision and the build it was made from
   source_ids:
   - ARC_222@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_73
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: export
   object_text: name in every report how many objects of each kind it was made from
   source_ids:
   - ARC_224@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_74
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: refuse a request that carries no identity of a user
   source_ids:
   - ARC_185@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_75
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: answer a request only where the role of its user grants it
   source_ids:
   - ARC_185@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_76
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: answer a user only the data of the organizations and projects their role grants
   source_ids:
   - ARC_217@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_77
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: access
   object_text: answer the record of what users did only to the roles allowed to see it
   source_ids:
   - ARC_218@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_78
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: audit
   object_text: record for every report who produced it, when, from which data set and revision, and with
     which parameters
@@ -905,29 +905,29 @@ requirements:
   - ARC_186@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_79
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: audit
   object_text: give every report an identity of its own and a fingerprint of the data it was made from
   source_ids:
   - ARC_187@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_80
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: audit
   object_text: record of what users did only what the purposes set need
   source_ids:
   - ARC_188@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_81
@@ -977,7 +977,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_85
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: maturity
   object_text: take the longest chain from the process reference model in use, with a level each for source
     code and object code coverage; ASPICE with 20 steps where none is asked for
@@ -985,7 +985,7 @@ requirements:
   - ARC_193@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_86
@@ -1001,18 +1001,18 @@ requirements:
   verification_method:
   - test
 - object_key: SR_87
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: maturity
   object_text: leave out of the chain every step whose level holds no object in the release
   source_ids:
   - ARC_212@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_88
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: maturity
   object_text: answer with every maturity, and name in every report, the chain it used and the steps it
     left out
@@ -1020,33 +1020,33 @@ requirements:
   - ARC_213@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_89
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: maturity
   object_text: answer the data grouped by feature, one group per feature
   source_ids:
   - ARC_215@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_90
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: server
   object_text: answer every request from a data set of size large
   source_ids:
   - ARC_195@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_91
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: server
   object_text: answer each request of a view on a data set of size large within the share of the time
     given that falls to the reporter
@@ -1054,22 +1054,22 @@ requirements:
   - ARC_34@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_92
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: server
   object_text: be ready to answer from its data within the time given after it was started
   source_ids:
   - ARC_196@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_93
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: server
   object_text: answer from a data file or from data in memory within the memory and the processor time
     given
@@ -1077,11 +1077,11 @@ requirements:
   - ARC_197@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_94
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: server
   object_text: answer the number of users given at once, each request within the share of the time given
     that falls to the reporter
@@ -1089,11 +1089,11 @@ requirements:
   - ARC_198@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_95
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: licence
   object_text: check on every request to a licensed feature the licence of the installation, and refuse
     the request with the reason where it is missing
@@ -1101,44 +1101,44 @@ requirements:
   - ARC_199@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_96
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: licence
   object_text: answer which features the installation is licensed for
   source_ids:
   - ARC_200@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_97
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: delivery
   object_text: answer the version of treporting it belongs to
   source_ids:
   - ARC_219@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_98
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: delivery
   object_text: carry in its container the licence texts and the notices of every component it contains
   source_ids:
   - ARC_220@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_99
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: states
   object_text: answer and count the state of every object from its mapped value, never from the value
     as read
@@ -1146,22 +1146,22 @@ requirements:
   - ARC_202@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_100
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: states
   object_text: answer with every value whether it is the value as read or the one derived
   source_ids:
   - ARC_202@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_101
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: plausibility
   object_text: analyse a data set against the rules of plausibility, as a report, without changing the
     data set
@@ -1169,22 +1169,22 @@ requirements:
   - ARC_203@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_102
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: plausibility
   object_text: answer every finding of plausibility with its rule and its objects
   source_ids:
   - ARC_204@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_103
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: verification
   object_text: answer every finding of the customer in a baseline with its evaluation - evaluated or open,
     by whom, and where it is written
@@ -1192,22 +1192,22 @@ requirements:
   - ARC_205@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_104
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: verification
   object_text: answer with every requirement its verification method
   source_ids:
   - ARC_206@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_105
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: verification
   object_text: answer per work product its status, who approved it and when, and its reviews in their
     order with criteria, result per criterion, reviewer, time, revision reviewed and change since the
@@ -1216,18 +1216,18 @@ requirements:
   - ARC_207@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_106
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: verification
   object_text: count a review of a work product only for the revision it reviewed, never for a newer one
   source_ids:
   - ARC_208@1.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_107
