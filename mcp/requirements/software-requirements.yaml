@@ -20,7 +20,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_2
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: answers
   object_text: answer with each tool the figures its view shows, as the reporter answers them, adding
     none and leaving none out
@@ -28,7 +28,7 @@ requirements:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_3
@@ -65,7 +65,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_6
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: send with every request the organization, the project, the subsystem and the baseline,
     never every subsystem
@@ -73,22 +73,22 @@ requirements:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_7
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: send the process reference model the assistant asks for
   source_ids:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_8
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: send each narrowing the assistant asks for with every request whose answer the reporter
     narrows by it, and every one as `*` or not at all
@@ -96,55 +96,55 @@ requirements:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_9
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: send the level by its key as the head names it
   source_ids:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_10
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: send the component and the unit the assistant asks for with a request on the code
   source_ids:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_11
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: ask the reporter for the levels above each row only where the assistant asks for them
   source_ids:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_12
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: requests
   object_text: ask the reporter for the keys in the cells or for their count, as the assistant asks
   source_ids:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_13
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: answers
   object_text: hand the assistant the reason the reporter gives for a request it refuses, and say so where
     the data are not there yet or the data source cannot be read
@@ -152,7 +152,7 @@ requirements:
   - ARC_53@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_14
