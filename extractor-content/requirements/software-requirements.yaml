@@ -53,14 +53,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_5
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: plug-ins
   object_text: start a package for each kind of content as a program of its own, and hand it the configuration
   source_ids:
   - ARC_80@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_6
@@ -97,7 +97,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_9
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: requirements
   object_text: hand every requirement read with its scope, its key, its level, its state and the person
     responsible
@@ -105,11 +105,11 @@ requirements:
   - ARC_65@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_10
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: tests
   object_text: hand every test case, test procedure and test result read with its scope, its key, its
     level and its state, each as a kind of its own
@@ -117,11 +117,11 @@ requirements:
   - ARC_65@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_11
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: code
   object_text: hand every piece of code that names the requirements it implements, in the format of formats.md,
     with its scope, its key and its unit
@@ -129,22 +129,22 @@ requirements:
   - ARC_65@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_12
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: links
   object_text: hand every link read with its type and its two ends, also where an end is missing
   source_ids:
   - ARC_66@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_13
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: work products
   object_text: hand each file read as a work product with its baseline, its revision, its level, its kind
     and its store
@@ -152,22 +152,22 @@ requirements:
   - ARC_67@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_14
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: reviews
   object_text: hand per work product its status, who approved it and when
   source_ids:
   - ARC_68@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_15
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: reviews
   object_text: hand per work product its reviews in their order, each with its criteria, its result per
     criterion, its reviewer, its time and the revision reviewed
@@ -175,11 +175,11 @@ requirements:
   - ARC_68@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_16
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: reviews
   object_text: hand every finding of the customer with its evaluation - evaluated or open, by whom, and
     where it is written
@@ -187,11 +187,11 @@ requirements:
   - ARC_68@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_17
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   component: as read
   object_text: hand every value as the file holds it, and beside it its mapped (`M`) and intermediate (`I`)
     value, which may be empty
@@ -199,33 +199,33 @@ requirements:
   - ARC_69@3.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_18
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: as read
   object_text: hand a value the file does not give as unknown, apart from an empty one
   source_ids:
   - ARC_69@3.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_19
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: integrity
   object_text: name every object it could not read, with the file and the reason
   source_ids:
   - ARC_70@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_20
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: integrity
   object_text: hand per kind of object, per type of link and per state how many were read and how many
     refused
@@ -233,7 +233,7 @@ requirements:
   - ARC_71@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_21
@@ -248,14 +248,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_22
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: integrity
   object_text: hand its errors and warnings with time and cause
   source_ids:
   - ARC_72@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_23

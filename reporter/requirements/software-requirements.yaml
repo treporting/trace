@@ -21,7 +21,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_2
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: trace
   object_text: take the level the trace starts at, or the level counted, by its key as the head of the
     project names it
@@ -29,11 +29,11 @@ requirements:
   - ARC_32@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_3
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: trace
   object_text: name in each row the objects above its object on each level, up to the roots, each with
     its state, only where the request asks for them
@@ -41,11 +41,11 @@ requirements:
   - ARC_34@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_4
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: trace
   object_text: name in each cell the keys of its objects, each with its state, where the request asks
     for the keys
@@ -53,11 +53,11 @@ requirements:
   - ARC_35@3.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   component: trace
   object_text: give in each cell the count of its objects per state the storage hands, where the
     request does not ask for the keys
@@ -65,7 +65,7 @@ requirements:
   - ARC_35@3.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_6
@@ -222,7 +222,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_19
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: answer a request from the organization, the project, the subsystem and the baseline it
     names, and from no other
@@ -230,22 +230,22 @@ requirements:
   - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_20
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: refuse a request that names every subsystem, with the reason
   source_ids:
   - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_21
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: narrow by function, feature and safety class to the objects that carry the entry asked
     for, never one it is a prefix of; find an object carrying several entries under each of them
@@ -253,11 +253,11 @@ requirements:
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_22
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: narrow the requirements to the platform and the launch asked for, and the test cases and
     test results to the platform and the stream asked for, on the level the trace starts at and on every
@@ -266,18 +266,18 @@ requirements:
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_23
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: answer the same for every one of a narrowing as for no narrowing
   source_ids:
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_24
@@ -443,7 +443,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_38
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: process
   object_text: name the levels in its answer as the process reference model asked for names them, from
     one data set for every model
@@ -451,7 +451,7 @@ requirements:
   - ARC_30@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_39
@@ -550,14 +550,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_47
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: structure
   object_text: narrow a request on the code to the component and the unit asked for
   source_ids:
   - ARC_33@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_48
@@ -649,7 +649,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_56
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: source
   object_text: answer from one mode only, named at its start, and refuse to start when named more than
     one
@@ -657,7 +657,7 @@ requirements:
   - ARC_28@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_57
@@ -705,29 +705,29 @@ requirements:
   verification_method:
   - test
 - object_key: SR_61
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: source
   object_text: answer every request in the same form whichever mode it reads from
   source_ids:
   - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_62
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: refusals
   object_text: refuse a request that lacks a parameter it needs, naming the parameter
   source_ids:
   - ARC_37@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_63
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: refusals
   object_text: refuse a request with a parameter it does not know, or a value it cannot answer, with the
     reason, before it reads any data
@@ -735,11 +735,11 @@ requirements:
   - ARC_37@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_64
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: refusals
   object_text: answer a request while its data are not there yet as not available, saying so, and answer
     it once the data are there
@@ -747,11 +747,11 @@ requirements:
   - ARC_37@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_65
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: refusals
   object_text: answer a request whose data source cannot be read as not available, with the reason, never
     as an empty answer
@@ -759,7 +759,7 @@ requirements:
   - ARC_37@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_66
@@ -797,14 +797,14 @@ requirements:
   verification_method:
   - test
 - object_key: SR_69
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: export
   object_text: answer each table as JSON or as CSV, as asked, the CSV with the rows of the JSON
   source_ids:
   - ARC_36@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
 - object_key: SR_70
@@ -1242,7 +1242,7 @@ requirements:
   verification_method:
   - test
 - object_key: SR_108
-  object_version: '1.1.1'
+  object_version: '1.1.2'
   component: filters
   object_text: answer a request that names no release (`*`) from the newest release of the project and
     the newest library that release delivered
@@ -1250,6 +1250,6 @@ requirements:
   - ARC_56@2.1.1
   priority: 'medium'
   safety: ''
-  status: draft
+  status: approved
   verification_method:
   - test
