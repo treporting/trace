@@ -1,0 +1,218 @@
+# Software requirements of storage-trace (r5). What explains them is in software-requirements.md.
+# Format: formats.md of specs-and-deploy-process
+schema: schemas/software-requirements.schema.json
+type: requirements
+level: r5
+documents: [storage/requirements/software-requirements.md]
+requirements:
+- object_key: SR_1
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement that has no child on the level below it in the head as a missing link;
+    mark none where the head has no level below it
+  source_ids:
+  - ARC_286@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_2
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement that no test case verifies as a missing test case where its verification
+    method is test or names no method; mark none where the method names no test
+  source_ids:
+  - ARC_286@1.1.1
+  - ARC_44@2.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_3
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a requirement of the design level that no source code implements as a missing implementation,
+    never as a missing link
+  source_ids:
+  - ARC_286@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_4
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a test case that has no test result as a missing test result
+  source_ids:
+  - ARC_286@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_5
+  object_version: '1.1.1'
+  component: gaps
+  object_text: count a place marked as missing as not covered, never as covered
+  source_ids:
+  - ARC_286@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_6
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the requirements of each level per release and per library, each object
+    once
+  source_ids:
+  - ARC_287@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_7
+  object_version: '1.1.1'
+  component: trace
+  object_text: hand the trace by test case - one row per test case of the level asked for, with its test result
+    and the requirements it verifies on each level
+  source_ids:
+  - ARC_288@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_8
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the test cases, the test procedures and the test results of each level
+    apart, per release and per library
+  source_ids:
+  - ARC_289@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_9
+  object_version: '1.1.1'
+  component: states
+  object_text: count the states of the source code and of the object code apart, per release and per library
+  source_ids:
+  - ARC_151@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_10
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a hazard or threat that has no measure, and a measure that controls no requirement,
+    as a missing link
+  source_ids:
+  - ARC_290@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_11
+  object_version: '1.1.1'
+  component: gaps
+  object_text: mark a hazard or threat none of whose requirements below its measures has a passed test
+    result
+  source_ids:
+  - ARC_290@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_12
+  object_version: '1.1.1'
+  component: trace
+  object_text: name with each requirement a measure controls that measure and its hazard or threat
+  source_ids:
+  - ARC_290@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_13
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of a requirement as the share of the steps of the chain it has reached
+    in a row, from the first step up to the first gap
+  source_ids:
+  - ARC_139@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_14
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of each group - RG-SYS-R, RG-SW-R, RG-SC, RG-OC, RG-SW-TC, RG-SW-TR,
+    RG-SYS-TC, RG-SYS-TR - as the share of the steps of that group reached
+  source_ids:
+  - ARC_140@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_15
+  object_version: '1.1.1'
+  component: maturity
+  object_text: count a test result as reached only when it passed
+  source_ids:
+  - ARC_141@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_16
+  object_version: '1.1.1'
+  component: maturity
+  object_text: count a step as reached only when every branch below the requirement reaches it
+  source_ids:
+  - ARC_142@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_17
+  object_version: '1.1.1'
+  component: maturity
+  object_text: give the maturity of a level, a feature or a release as the mean of the maturity of its
+    requirements
+  source_ids:
+  - ARC_143@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test
+- object_key: SR_18
+  object_version: '1.1.1'
+  component: verification
+  object_text: count a passed inspection of the realization of a requirement as its verification, where
+    its verification method is inspection
+  source_ids:
+  - ARC_150@1.1.1
+  priority: 'medium'
+  safety: ''
+  status: approved
+  verification_method:
+  - test

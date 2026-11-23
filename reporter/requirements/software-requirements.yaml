@@ -77,7 +77,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_7
@@ -90,7 +90,7 @@ requirements:
   - SYS_73@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_8
@@ -102,7 +102,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_9
@@ -113,7 +113,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_10
@@ -124,7 +124,7 @@ requirements:
   - SYS_2@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_11
@@ -159,7 +159,7 @@ requirements:
   - SYS_5@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_14
@@ -171,7 +171,7 @@ requirements:
   - SYS_6@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_15
@@ -195,7 +195,7 @@ requirements:
   - SYS_8@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_17
@@ -206,7 +206,7 @@ requirements:
   - SYS_77@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_18
@@ -382,7 +382,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_33
@@ -394,7 +394,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_34
@@ -405,7 +405,7 @@ requirements:
   - SYS_12@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_35
@@ -938,7 +938,7 @@ requirements:
   - SYS_45@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_82
@@ -950,7 +950,7 @@ requirements:
   - SYS_46@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_83
@@ -961,7 +961,7 @@ requirements:
   - SYS_47@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_84
@@ -972,7 +972,7 @@ requirements:
   - SYS_48@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_85
@@ -996,7 +996,7 @@ requirements:
   - SYS_50@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_87
@@ -1238,7 +1238,7 @@ requirements:
   - SYS_76@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: obsolete
   verification_method:
   - test
 - object_key: SR_108
