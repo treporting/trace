@@ -8,22 +8,22 @@ level: r5
 documents: [extractor-content/requirements/software-requirements.md]
 requirements:
 - object_key: SR_1
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: configuration
   object_text: take each part of the configuration from a file, from the command line or from the environment
   source_ids:
-  - ARC_78@1.1.1
+  - ARC_283@1.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_2
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: configuration
   object_text: take the release a library is delivered into from the configuration
   source_ids:
-  - ARC_79@1.1.1
+  - ARC_88@1.1.1
   priority: 'medium'
   safety: ''
   status: approved
@@ -42,11 +42,11 @@ requirements:
   verification_method:
   - test
 - object_key: SR_4
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: configuration
   object_text: map the fields of each kind of file to the model by the mapping of the configuration
   source_ids:
-  - SYS_22@1.1.1
+  - ARC_92@1.1.1
   priority: 'medium'
   safety: ''
   status: approved
@@ -64,33 +64,33 @@ requirements:
   verification_method:
   - test
 - object_key: SR_6
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: plug-ins
   object_text: hand each file to the packages of its kind only
   source_ids:
-  - ARC_63@1.1.1
+  - ARC_80@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_7
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: plug-ins
   object_text: take the baseline before its files, and put every file that follows into that baseline
   source_ids:
-  - ARC_62@1.1.1
+  - ARC_88@1.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_8
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: plug-ins
   object_text: make what spans several files - a link - once the last file of a baseline is handed over
   source_ids:
-  - ARC_64@1.1.1
+  - ARC_66@2.1.1
   priority: 'medium'
   safety: ''
   status: approved

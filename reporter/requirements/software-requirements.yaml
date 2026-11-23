@@ -8,13 +8,13 @@ level: r5
 documents: [reporter/requirements/software-requirements.md]
 requirements:
 - object_key: SR_1
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: trace
   object_text: answer the trace from the level asked for - a hazard, a measure, or a requirement or a
     test case of any level - as one row per object of that level, with the objects linked below it on
     each level of the head, down to the test results
   source_ids:
-  - SYS_1@1.1.1
+  - ARC_32@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
@@ -292,36 +292,35 @@ requirements:
   verification_method:
   - test
 - object_key: SR_25
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: answer for a scope the organizations, projects, subsystems, releases and libraries to choose
     from, and the functions, features, priorities, safety classes, platforms, launches and streams its
     objects carry, each once
   source_ids:
-  - SYS_9@2.1.1
+  - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_26
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: filters
   object_text: answer a view over time for a span of baselines, from the first baseline asked for to the
     last
   source_ids:
-  - SYS_9@2.1.1
+  - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_27
-  object_version: '1.2.1'
+  object_version: '1.3.1'
   component: filters
   object_text: answer with every table how many objects of its scope the narrowing left out
   source_ids:
-  - SYS_9@2.1.1
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
@@ -662,44 +661,44 @@ requirements:
   verification_method:
   - test
 - object_key: SR_57
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: source
   object_text: answer from a data set in a database server of its own, read through `StorageSource`
   source_ids:
-  - ARC_23@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_58
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: source
   object_text: answer from a data set in a database run together with it
   source_ids:
-  - ARC_24@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_59
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: source
   object_text: answer from a data file it reads
   source_ids:
-  - ARC_25@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
   verification_method:
   - test
 - object_key: SR_60
-  object_version: '1.1.1'
+  object_version: '1.2.1'
   component: source
   object_text: answer from a data set it generates in memory, the same data set for the same size
   source_ids:
-  - ARC_26@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
   status: approved
