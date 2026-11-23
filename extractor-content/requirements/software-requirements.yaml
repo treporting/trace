@@ -35,10 +35,10 @@ requirements:
   object_text: say a library the configuration names in no release as an error, with the library, and
     read none of its files
   source_ids:
-  - SYS_38@1.1.1
+  - ARC_72@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_4
@@ -240,10 +240,10 @@ requirements:
   component: integrity
   object_text: extract from the same files the same information on every run
   source_ids:
-  - SYS_24@2.1.1
+  - ARC_89@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_22
@@ -262,9 +262,9 @@ requirements:
   component: performance
   object_text: extract a data set of size large within the time given to its import
   source_ids:
-  - SYS_53@1.1.1
+  - ARC_91@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test

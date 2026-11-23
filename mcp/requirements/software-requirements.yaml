@@ -47,10 +47,10 @@ requirements:
   component: answers
   object_text: name with every answer the view of the viewer that shows the same
   source_ids:
-  - SYS_100@1.1.1
+  - ARC_81@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_5
@@ -58,10 +58,10 @@ requirements:
   component: answers
   object_text: name with every answer the filters that show the same in that view, the scope among them
   source_ids:
-  - SYS_100@1.1.1
+  - ARC_81@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_6
@@ -160,10 +160,10 @@ requirements:
   component: operation
   object_text: start from a release with no setting other than those its operator manual names
   source_ids:
-  - SYS_35@1.1.1
+  - ARC_82@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_15
