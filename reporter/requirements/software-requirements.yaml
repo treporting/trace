@@ -14,10 +14,10 @@ requirements:
     test case of any level - as one row per object of that level, with the objects linked below it on
     each level of the head, down to the test results
   source_ids:
-  - SYS_1@1.1.1
+  - ARC_32@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_2
@@ -298,10 +298,10 @@ requirements:
     from, and the functions, features, priorities, safety classes, platforms, launches and streams its
     objects carry, each once
   source_ids:
-  - SYS_9@2.1.1
+  - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_26
@@ -310,10 +310,10 @@ requirements:
   object_text: answer a view over time for a span of baselines, from the first baseline asked for to the
     last
   source_ids:
-  - SYS_9@2.1.1
+  - ARC_29@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_27
@@ -321,11 +321,10 @@ requirements:
   component: filters
   object_text: answer with every table how many objects of its scope the narrowing left out
   source_ids:
-  - SYS_9@2.1.1
   - ARC_31@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_28
@@ -666,10 +665,10 @@ requirements:
   component: source
   object_text: answer from a data set in a database server of its own, read through `StorageSource`
   source_ids:
-  - ARC_23@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_58
@@ -677,10 +676,10 @@ requirements:
   component: source
   object_text: answer from a data set in a database run together with it
   source_ids:
-  - ARC_24@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_59
@@ -688,10 +687,10 @@ requirements:
   component: source
   object_text: answer from a data file it reads
   source_ids:
-  - ARC_25@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_60
@@ -699,10 +698,10 @@ requirements:
   component: source
   object_text: answer from a data set it generates in memory, the same data set for the same size
   source_ids:
-  - ARC_26@1.1.1
+  - ARC_27@2.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_61

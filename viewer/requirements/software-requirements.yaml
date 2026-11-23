@@ -36,10 +36,10 @@ requirements:
   component: filters
   object_text: send the level chosen by its key as the head names it
   source_ids:
-  - ARC_32@1.1.1
+  - ARC_225@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_4
@@ -48,10 +48,10 @@ requirements:
   object_text: let the user choose whether each row shows the levels above it, and ask the reporter for
     them only then
   source_ids:
-  - ARC_34@1.1.1
+  - ARC_225@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_5
@@ -60,10 +60,10 @@ requirements:
   object_text: let the user choose whether each cell shows the keys of its objects, each with its state,
     or their count, and ask the reporter for the one chosen
   source_ids:
-  - ARC_35@1.1.1
+  - ARC_229@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_6
@@ -189,10 +189,10 @@ requirements:
   object_text: send with every request the organization, the project, the subsystem and the baseline chosen,
     never every subsystem
   source_ids:
-  - ARC_29@1.1.1
+  - ARC_233@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_17
@@ -235,10 +235,10 @@ requirements:
   object_text: send each narrowing chosen with every request whose answer the reporter narrows by it,
     and every one as `*` or not at all
   source_ids:
-  - ARC_31@1.1.1
+  - ARC_270@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_21
@@ -315,10 +315,10 @@ requirements:
   component: filters
   object_text: let the user narrow the code by component and by unit, and send the ones chosen
   source_ids:
-  - ARC_33@1.1.1
+  - ARC_225@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_28
@@ -385,10 +385,10 @@ requirements:
   object_text: let the user choose the process reference model, send it, and show the one in use at all
     times
   source_ids:
-  - ARC_30@1.1.1
+  - ARC_237@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_34
@@ -658,10 +658,10 @@ requirements:
   component: status
   object_text: show the reason the reporter gives for a request it refuses, never an empty view
   source_ids:
-  - ARC_37@1.1.1
+  - ARC_245@1.1.1
   priority: 'medium'
   safety: ''
-  status: approved
+  status: draft
   verification_method:
   - test
 - object_key: SR_58
