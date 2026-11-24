@@ -27,9 +27,9 @@ documents:
 - name: storage/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   object_hash: 'c5cb012'
-  status: approved
+  status: draft
   verification_method: [review]
 - name: storage/architecture/software-architecture.md
   type: explanation
