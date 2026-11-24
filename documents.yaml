@@ -24,6 +24,13 @@ documents:
   object_hash: 'c5cb012'
   status: approved
   verification_method: [review]
+- name: storage/architecture/software-architecture.md
+  type: explanation
+  level: r6
+  object_version: '1.1.1'
+  object_hash: 'd37f0d1'
+  status: draft
+  verification_method: [review]
 - name: viewer/requirements/software-requirements.md
   type: explanation
   level: r5
