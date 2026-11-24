@@ -27,8 +27,8 @@ documents:
 - name: storage/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
-  object_hash: 'c5cb012'
+  object_version: '2.1.1'
+  object_hash: '6edfbf6'
   status: approved
   verification_method: [review]
 - name: storage/architecture/software-architecture.md
