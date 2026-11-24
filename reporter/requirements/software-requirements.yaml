@@ -1,6 +1,5 @@
-# Software requirements of reporter-trace (ARC_2), r5: from the system requirements and the
-# requirements of the architecture allocated to the reporter and to its interfaces ARC_11 and
-# ARC_12. What explains them is in software-requirements.md.
+# Software requirements of reporter-trace (ARC_2), r5: from the requirements of the architecture
+# on the reporter. What explains them is in software-requirements.md.
 # Format: formats.md of specs-and-deploy-process
 schema: schemas/software-requirements.schema.json
 type: requirements

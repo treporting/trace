@@ -1,7 +1,5 @@
-# Software requirements of mcp-trace (ARC_51), r5: from the system requirements allocated to the
-# MCP server, from the requirements of the architecture on its interface ARC_52, which it offers an
-# assistant, and on ARC_11, which it asks the reporter over. What explains them is in
-# software-requirements.md.
+# Software requirements of mcp-trace (ARC_51), r5: from the requirements of the architecture on
+# the MCP server. What explains them is in software-requirements.md.
 # Format: formats.md of specs-and-deploy-process
 schema: schemas/software-requirements.schema.json
 type: requirements
