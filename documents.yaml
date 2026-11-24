@@ -29,7 +29,7 @@ documents:
   level: r6
   object_version: '1.1.1'
   object_hash: 'd37f0d1'
-  status: draft
+  status: approved
   verification_method: [review]
 - name: viewer/requirements/software-requirements.md
   type: explanation
