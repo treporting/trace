@@ -55,9 +55,9 @@ documents:
 - name: mcp/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '2.1.1'
+  object_version: '3.1.1'
   object_hash: 'd8b6a4a'
-  status: approved
+  status: draft
   verification_method: [review]
 - name: mcp/architecture/software-architecture.md
   type: explanation
