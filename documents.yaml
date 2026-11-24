@@ -56,8 +56,8 @@ documents:
   type: explanation
   level: r5
   object_version: '3.1.1'
-  object_hash: 'd8b6a4a'
-  status: draft
+  object_hash: 'b776b95'
+  status: approved
   verification_method: [review]
 - name: mcp/architecture/software-architecture.md
   type: explanation
