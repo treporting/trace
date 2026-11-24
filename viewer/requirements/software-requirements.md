@@ -18,11 +18,6 @@ holds what explains them.
 - SR_21 serves ARC_233 and ARC_270: how many objects a narrowing left out, as the reporter answers
   it (SR_27 of the reporter).
 
-## Open
-
-- ARC_243, ARC_255 and ARC_258 are still `draft`, as their system requirements SYS_27, SYS_57 and
-  SYS_64 are.
-
 ## Change history
 
 | Version | Date | Change | Reason | By |

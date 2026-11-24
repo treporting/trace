@@ -13,10 +13,6 @@ The requirements themselves - ids `SR_n` - are in
 [formats.md](https://github.com/treporting/specs-and-deploy-process/blob/main/formats.md); this file
 holds what explains them.
 
-## Open
-
-- ARC_90 and ARC_94 are still `draft`, as their system requirements SYS_27 and SYS_64 are.
-
 ## Change history
 
 | Version | Date | Change | Reason | By |

@@ -14,10 +14,6 @@ The requirements themselves - ids `SR_n` - are in
 holds what explains them. The field `component` groups them by the part of the reporter that
 realizes them, such as `trace`, `filters` or `maturity`.
 
-## Open
-
-- ARC_179 and ARC_201 are still `draft`, as their system requirements SYS_27 and SYS_64 are.
-
 ## Change history
 
 | Version | Date | Change | Reason | By |
