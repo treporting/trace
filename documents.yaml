@@ -41,8 +41,8 @@ documents:
 - name: viewer/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '2.1.1'
-  object_hash: 'ab69b13'
+  object_version: '3.1.1'
+  object_hash: '83a44d0'
   status: approved
   verification_method: [review]
 - name: viewer/architecture/software-architecture.md
