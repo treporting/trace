@@ -1,0 +1,517 @@
+# Test cases of the software requirements of the MCP server (r5tc).
+# Format: formats.md of specs-and-deploy-process, section Test cases
+schema: schemas/test-cases.schema.json
+type: testcases
+level: r5tc
+testcases:
+- object_key: TC_1
+  object_version: '1.1.1'
+  object_text: 'the tools the server offers an assistant: one per view of the viewer - projects,
+    systems, baselines, maturity, requirements, code, tests, compliance, components and artifacts -
+    each named after its view'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_1@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_2
+  object_version: '1.1.1'
+  object_text: 'a view with a table and a chart, such as requirements: one tool, which answers the
+    table where the assistant names neither'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_1@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_3
+  object_version: '1.1.1'
+  object_text: 'a call that names a view the tool does not have, neither table nor chart: refused
+    with the reason'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_1@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_4
+  object_version: '1.1.1'
+  object_text: 'a call in a scope: its rows are the rows the reporter answers on the route of the
+    view, each figure unchanged'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_2@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_5
+  object_version: '1.1.1'
+  object_text: 'a table with a summary row: the summary is the one the reporter answers, not one
+    counted again from the rows handed'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_2@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_6
+  object_version: '1.1.1'
+  object_text: 'a call the server narrows itself, such as one requirement or the artifacts of one
+    baseline: the rows are rows the reporter answered, none changed, and the answer says that the
+    server narrowed them'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_2@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_7
+  object_version: '1.1.1'
+  object_text: 'a scope in which the reporter answers no row: the answer has no row and says so'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_2@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_8
+  object_version: '1.1.1'
+  object_text: 'the reporter answers 250 rows and the limit is 100: the answer says that 150 of 250
+    rows were left out'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_3@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_9
+  object_version: '1.1.1'
+  object_text: 'the reporter answers as many rows as the limit: the answer leaves none out and says
+    nothing of a limit'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_3@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_10
+  object_version: '1.1.1'
+  object_text: 'the reporter answers one row more than the limit: the answer says that one row was
+    left out'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_3@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_11
+  object_version: '1.1.1'
+  object_text: 'the assistant names no limit and the reporter answers 101 rows: the answer has 100'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_15@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_12
+  object_version: '1.1.1'
+  object_text: 'the assistant names no limit and the reporter answers 100 rows: the answer has all
+    100'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_15@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_13
+  object_version: '1.1.1'
+  object_text: 'the assistant names the limit 1: the answer has one row'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_15@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_14
+  object_version: '1.1.1'
+  object_text: 'the assistant names the limit 0: the answer has 100 rows, as if none was named'
+  design_technique: boundary value analysis
+  target_ids:
+  - SR_15@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_15
+  object_version: '1.1.1'
+  object_text: 'the answer of each tool: it names the view of the viewer that shows the same, and
+    table or chart where the view has both'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_4@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_16
+  object_version: '1.1.1'
+  object_text: 'the answer of version, which no view shows: it says that no view shows it'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_4@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_17
+  object_version: '1.1.1'
+  object_text: 'a call that names project, subsystem, release and library: the answer names each as
+    the filter of the view that shows the same'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_5@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_18
+  object_version: '1.1.1'
+  object_text: 'a call that leaves the baseline, the subsystem, the level, the platform, the launch
+    or the stream open: the answer names the value chosen for each, and that it was chosen'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_5@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_19
+  object_version: '1.1.1'
+  object_text: 'a call that names a function, a feature, a priority or a safety class: the answer
+    names it among its filters'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_5@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_20
+  object_version: '1.1.1'
+  object_text: 'a call that names the project only: the request carries the organization, the
+    project, no subsystem - the reporter''s choice - and the newest release with the newest library
+    it delivered'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_6@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_21
+  object_version: '1.1.1'
+  object_text: 'a call that names project, subsystem, release and library: the request carries each
+    as named'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_6@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_22
+  object_version: '1.1.1'
+  object_text: 'a call of components, whose view counts over every library: the request carries the
+    chosen subsystem, not every subsystem'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_6@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_23
+  object_version: '1.1.1'
+  object_text: 'a call that names no project: refused, asking for the project'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_6@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_24
+  object_version: '1.1.1'
+  object_text: 'a call that names a project, a subsystem, a release or a library the reporter does
+    not know: refused, naming the ones there are'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_6@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_25
+  object_version: '1.1.1'
+  object_text: 'any call of any tool: the request carries the organization the server was started
+    with'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_16@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_26
+  object_version: '1.1.1'
+  object_text: 'the parameters of every tool: none of them is the organization'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_16@1.1.2
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_27
+  object_version: '1.1.1'
+  object_text: 'a call that names a process reference model, such as airborne: every request of the
+    call carries it'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_7@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_28
+  object_version: '1.1.1'
+  object_text: 'a call that names no process reference model: no request carries one, and the answer
+    names the one the reporter answered in'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_7@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_29
+  object_version: '1.1.1'
+  object_text: 'a call of a view whose route narrows by function, feature, priority and safety,
+    naming each: every request on that route carries each as named'
+  design_technique: decision table testing
+  target_ids:
+  - SR_8@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_30
+  object_version: '1.1.1'
+  object_text: 'a call of such a view naming none of them: no request carries any of them'
+  design_technique: decision table testing
+  target_ids:
+  - SR_8@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_31
+  object_version: '1.1.1'
+  object_text: 'a call that names a narrowing: the request for the scope, which the reporter does
+    not narrow by it, does not carry it'
+  design_technique: decision table testing
+  target_ids:
+  - SR_8@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_32
+  object_version: '1.1.1'
+  object_text: 'a narrowing the assistant asks for as every value: the request carries it as `*` or
+    not at all, never as an empty value'
+  design_technique: decision table testing
+  target_ids:
+  - SR_8@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_33
+  object_version: '1.1.1'
+  object_text: 'a call that names a level by its name in the head, such as SYS.1: the request
+    carries the key of that column'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_9@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_34
+  object_version: '1.1.1'
+  object_text: 'a call that names a test level by its own name, such as SWE.6: the request carries
+    the key of the test column that verifies its level'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_9@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_35
+  object_version: '1.1.1'
+  object_text: 'a call that names no level: the request carries the key of the first requirement
+    level of the head, and the answer says so'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_9@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_36
+  object_version: '1.1.1'
+  object_text: 'a call that names a level the head does not hold: refused, naming the levels of the
+    head'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_9@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_37
+  object_version: '1.1.1'
+  object_text: 'a call of code that names a component and a unit: the request carries both'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_10@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_38
+  object_version: '1.1.1'
+  object_text: 'a call of code that names neither: the request carries neither'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_10@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_39
+  object_version: '1.1.1'
+  object_text: 'a call of a table that asks for the levels above: the request asks the reporter for
+    them'
+  design_technique: decision table testing
+  target_ids:
+  - SR_11@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_40
+  object_version: '1.1.1'
+  object_text: 'a call of a table that does not ask for the levels above: the request does not ask
+    for them'
+  design_technique: decision table testing
+  target_ids:
+  - SR_11@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_41
+  object_version: '1.1.1'
+  object_text: 'a call of a chart that asks for the levels above: refused, saying that only the
+    table has them'
+  design_technique: decision table testing
+  target_ids:
+  - SR_11@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_42
+  object_version: '1.1.1'
+  object_text: 'a call of a table that asks for the keys: the request asks the reporter for the keys
+    in the cells'
+  design_technique: decision table testing
+  target_ids:
+  - SR_12@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_43
+  object_version: '1.1.1'
+  object_text: 'a call of a table that does not ask for the keys: the request asks for their count'
+  design_technique: decision table testing
+  target_ids:
+  - SR_12@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_44
+  object_version: '1.1.1'
+  object_text: 'a call of a chart that asks for the keys: refused, saying that only the table has
+    them'
+  design_technique: decision table testing
+  target_ids:
+  - SR_12@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_45
+  object_version: '1.1.1'
+  object_text: 'the reporter refuses a request with a status and a reason: the assistant is handed
+    the status and the reason, not an empty answer'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_13@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_46
+  object_version: '1.1.1'
+  object_text: 'the reporter answers that its data are not loaded yet: the assistant is told that
+    the data are not there yet'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_13@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_47
+  object_version: '1.1.1'
+  object_text: 'the reporter answers that it cannot read its data source: the assistant is told so,
+    with the reason of the reporter'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_13@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_48
+  object_version: '1.1.1'
+  object_text: 'the reporter cannot be reached: the assistant is told so, with the address asked'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_13@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_49
+  object_version: '1.1.1'
+  object_text: 'a start with the address of the reporter, the organization and the address of the
+    viewer, as the operator manual names them: the server starts and offers its tools'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_14@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_50
+  object_version: '1.1.1'
+  object_text: 'a start with a setting the operator manual does not name: the server does not start
+    and says why'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_14@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_51
+  object_version: '1.1.1'
+  object_text: 'a start without the organization: the server does not start and names the missing
+    setting'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_14@1.2.1
+  status: draft
+  verification_method:
+  - review
+- object_key: TC_52
+  object_version: '1.1.1'
+  object_text: 'a start that serves HTTP instead of the standard streams, as the operator manual
+    names it: a call is answered as over the standard streams'
+  design_technique: equivalence partitioning
+  target_ids:
+  - SR_14@1.2.1
+  status: draft
+  verification_method:
+  - review
