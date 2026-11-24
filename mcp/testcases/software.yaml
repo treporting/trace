@@ -12,7 +12,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_1@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_2
@@ -22,7 +22,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_1@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_3
@@ -32,7 +32,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_1@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_4
@@ -42,7 +42,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_2@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_5
@@ -52,7 +52,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_2@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_6
@@ -63,7 +63,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_2@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_7
@@ -72,7 +72,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_2@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_8
@@ -82,7 +82,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_3@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_9
@@ -92,7 +92,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_3@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_10
@@ -102,7 +102,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_3@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_11
@@ -111,7 +111,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_15@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_12
@@ -121,7 +121,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_15@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_13
@@ -130,7 +130,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_15@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_14
@@ -139,7 +139,7 @@ testcases:
   design_technique: boundary value analysis
   target_ids:
   - SR_15@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_15
@@ -149,7 +149,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_4@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_16
@@ -158,7 +158,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_4@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_17
@@ -168,7 +168,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_5@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_18
@@ -178,7 +178,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_5@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_19
@@ -188,7 +188,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_5@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_20
@@ -199,7 +199,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_6@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_21
@@ -209,7 +209,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_6@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_22
@@ -219,7 +219,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_6@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_23
@@ -228,7 +228,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_6@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_24
@@ -238,7 +238,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_6@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_25
@@ -248,7 +248,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_16@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_26
@@ -257,7 +257,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_16@1.1.2
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_27
@@ -267,7 +267,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_7@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_28
@@ -277,7 +277,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_7@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_29
@@ -287,7 +287,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_8@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_30
@@ -296,7 +296,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_8@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_31
@@ -306,7 +306,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_8@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_32
@@ -316,7 +316,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_8@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_33
@@ -326,7 +326,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_9@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_34
@@ -336,7 +336,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_9@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_35
@@ -346,7 +346,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_9@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_36
@@ -356,7 +356,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_9@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_37
@@ -365,7 +365,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_10@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_38
@@ -374,7 +374,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_10@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_39
@@ -384,7 +384,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_11@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_40
@@ -394,7 +394,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_11@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_41
@@ -404,7 +404,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_11@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_42
@@ -414,7 +414,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_12@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_43
@@ -423,7 +423,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_12@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_44
@@ -433,7 +433,7 @@ testcases:
   design_technique: decision table testing
   target_ids:
   - SR_12@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_45
@@ -443,7 +443,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_13@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_46
@@ -453,7 +453,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_13@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_47
@@ -463,7 +463,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_13@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_48
@@ -472,7 +472,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_13@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_49
@@ -482,7 +482,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_14@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_50
@@ -492,7 +492,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_14@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_51
@@ -502,7 +502,7 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_14@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
 - object_key: TC_52
@@ -512,6 +512,6 @@ testcases:
   design_technique: equivalence partitioning
   target_ids:
   - SR_14@1.2.1
-  status: draft
+  status: approved
   verification_method:
   - review
