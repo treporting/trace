@@ -202,12 +202,13 @@ testcases:
   verification_method:
   - review
 - object_key: TC_21
-  object_version: '1.1.1'
-  object_text: 'data of three features: shown in three groups, one per feature'
+  object_version: '2.1.1'
+  object_text: 'the view maturity with data of three features: shown in three groups, one per
+    feature'
   design_technique: equivalence partitioning
   target_ids:
   - SR_9@1.2.1
-  status: approved
+  status: draft
   verification_method:
   - review
 - object_key: TC_22
