@@ -1,0 +1,25 @@
+# The baseline of trace, started by the label baseline on one of its tickets (TOOL_27). The work is
+# in baseline.yml of tools; see its README.md, section baseline. The steps take the version of Go
+# from the tools, and the schemas and levels.yaml from specs-and-deploy-process, the repo above.
+# Both are taken at the tags of their baselines: the tools after the @ at the commit of their tag,
+# in tools-ref at the tag; a pull request raises them. The commit, not the tag: GitHub does not find
+# the build.yml baseline.yml calls where the tag is a signed one.
+name: ticket-baseline
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  baseline:
+    if: github.event.label.name == 'baseline'
+    uses: treporting/tools/.github/workflows/baseline.yml@3b2ecdcfffb080d9f4f82977ee6febf7293ddead # T048.0
+    with:
+      tools-ref: T048.0
+      go-version-file: .build-steps/go.mod
+      above: treporting/specs-and-deploy-process
+      above-ref: T048
+    secrets: inherit
