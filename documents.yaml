@@ -13,9 +13,9 @@ documents:
 - name: reporter/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   object_hash: '531c810'
-  status: approved
+  status: draft
   verification_method: [review]
 - name: storage/requirements/software-requirements.md
   type: explanation
@@ -27,21 +27,21 @@ documents:
 - name: viewer/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   object_hash: '053a6e9'
-  status: approved
+  status: draft
   verification_method: [review]
 - name: mcp/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   object_hash: 'c7953bd'
-  status: approved
+  status: draft
   verification_method: [review]
 - name: extractor-content/requirements/software-requirements.md
   type: explanation
   level: r5
-  object_version: '1.1.1'
+  object_version: '2.1.1'
   object_hash: 'a9ba2f2'
-  status: approved
+  status: draft
   verification_method: [review]

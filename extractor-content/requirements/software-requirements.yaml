@@ -1,6 +1,5 @@
-# Software requirements of extractor-content (ARC_5), r5: from the system requirements allocated
-# to extractor-content and the requirements of the architecture on it and on its interfaces ARC_15,
-# ARC_16 and ARC_20. What explains them is in software-requirements.md.
+# Software requirements of extractor-content (ARC_5), r5: from the requirements of the
+# architecture on extractor-content. What explains them is in software-requirements.md.
 # Format: formats.md of specs-and-deploy-process
 schema: schemas/software-requirements.schema.json
 type: requirements
