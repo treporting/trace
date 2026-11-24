@@ -22,7 +22,7 @@ documents:
   level: r6
   object_version: '1.1.1'
   object_hash: 'b3ce4b0'
-  status: draft
+  status: approved
   verification_method: [review]
 - name: storage/requirements/software-requirements.md
   type: explanation
@@ -50,7 +50,7 @@ documents:
   level: r6
   object_version: '1.1.1'
   object_hash: 'e7b7476'
-  status: draft
+  status: approved
   verification_method: [review]
 - name: mcp/requirements/software-requirements.md
   type: explanation
@@ -64,7 +64,7 @@ documents:
   level: r6
   object_version: '1.1.1'
   object_hash: '04f7612'
-  status: draft
+  status: approved
   verification_method: [review]
 - name: extractor-content/requirements/software-requirements.md
   type: explanation
@@ -78,5 +78,5 @@ documents:
   level: r6
   object_version: '1.1.1'
   object_hash: 'e772e00'
-  status: draft
+  status: approved
   verification_method: [review]
