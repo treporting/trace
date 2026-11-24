@@ -80,3 +80,9 @@ documents:
   object_hash: 'e772e00'
   status: approved
   verification_method: [review]
+- name: sbom/sbom.md
+  type: document
+  object_version: '1.1.1'
+  object_hash: 'a674dcb'
+  status: completed
+  verification_method: [generated]
