@@ -13,7 +13,7 @@ criteria_revision: '919cab6'
 results:
 - object_key: RR_1
   target_ids: [mcp/requirements/software-requirements.md]
-  revision: 'bd64554'
+  revision: '7cf55c3'
   criteria:
     RC_1: passed
     RC_2: passed
